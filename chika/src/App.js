@@ -4,6 +4,7 @@ import { render } from 'react-dom';
 import Nav from "./components/Nav/Nav";
 import MobileNav from './components/Nav/MobileNav';
 import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
 // import Hero from "./components/Hero/Hero";
 // import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 // import Menu from "./components/Menu/Menu";
@@ -20,6 +21,7 @@ function App() {
       <Nav /> 
       <MobileNav />
       <Hero />
+      <Footer />
     </>
   );
 }

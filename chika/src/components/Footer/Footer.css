@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  border-top: 3px dotted #f3c26c;
+  margin-left: 130px;
+  margin-right: 130px;
+  height: 20vh;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  /* flex-direction: space-evenly; */
+}
