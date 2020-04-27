@@ -1,6 +1,6 @@
 .mobile-container {
   position: fixed;
-  color:#f3c26c;
+  color: #f3c26c;
   background-color: white;
   border-bottom: 3px dotted #f3c26c;
   font-size: 18px;
@@ -41,9 +41,9 @@
   padding-left: 30px;
 }
 
-.mobile-container a, 
+.mobile-container a,
 .mobile-container a:visited {
-  color:#f3c26c;
+  color: #f3c26c;
   text-decoration: none;
 }
 

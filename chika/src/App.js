@@ -6,7 +6,7 @@ import MobileNav from './components/Nav/MobileNav';
 import Hero from './components/Hero/Hero';
 import Footer from './components/Footer/Footer';
 // import Hero from "./components/Hero/Hero";
-// import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
+import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 // import Menu from "./components/Menu/Menu";
 // import OurStory from "./components/OurStory/OurStory";
 // import SupportUs from "./components/SupportUs/SupportUs";
@@ -18,9 +18,10 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-      <Nav /> 
+      <Nav />
       <MobileNav />
       <Hero />
+      <HeroFoodPhotos />
       <Footer />
     </>
   );
