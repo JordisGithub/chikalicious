@@ -15,5 +15,26 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  /* flex-direction: space-evenly; */
+  width: 20%;
+  justify-content: center;
+}
+
+.icons svg {
+  margin: 0 4% 0 4%;
+}
+
+.terms p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+span.termsLine {
+  padding-left: 10px;
+  text-align: center;
+}
+
+.svg-links a {
+  cursor: pointer;
 }
