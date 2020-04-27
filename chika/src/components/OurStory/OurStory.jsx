@@ -1,12 +1,13 @@
 import React from 'react';
 import './OurStory.css';
-import donchika from '../../images/donchika.jpg';
-import story from '../../images/Our_Story_2.jpg';
+import donchika from '../../images/donchika.png';
+import story from '../../images/chika.jpg';
 
 const OurStory = () => (
   <section className="our-story">
     <div>
       <h2>Our Story</h2>
+      <div className="line" />
       <p className="mission">Our mission was to show off the magic as it happens,
           showing customers how we prepare, plate and serve elegantly
           crafted and tasty desserts.
