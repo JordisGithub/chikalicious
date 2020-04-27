@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 // import Hero from "./components/Hero/Hero";
 import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 // import Menu from "./components/Menu/Menu";
-// import OurStory from "./components/OurStory/OurStory";
+import OurStory from "./components/OurStory/OurStory";
 // import SupportUs from "./components/SupportUs/SupportUs";
 // import Contact from "./components/Contact/Contact";
 // import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
@@ -22,6 +22,7 @@ function App() {
       <MobileNav />
       <Hero />
       <HeroFoodPhotos />
+      <OurStory />
       <Footer />
     </>
   );
