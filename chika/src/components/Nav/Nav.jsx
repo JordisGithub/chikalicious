@@ -12,7 +12,7 @@ export default class Nav extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container-nav">
       <div className="logo"><img src={logo} alt="Chikalicious"></img></div>
       <div className="nav-links">
       <ul>
