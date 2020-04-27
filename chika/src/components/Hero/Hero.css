@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+
+.hero-image img {
+  display: block;
+  margin: 4% auto;
+  width: 80%;
+}
+
+.heroTitle h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 64px;
+  font-weight: bold;
+}

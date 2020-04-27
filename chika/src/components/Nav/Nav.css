@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+
 .container-nav {
   display: flex;
   align-items: center;
   padding: 0px 130px 0px 130px;
   background-color: #f3c26c;
-  height: 80px;
+  height: 80px;  
+  font-family: 'Work Sans', sans-serif;
 }
 
 .logo img {
