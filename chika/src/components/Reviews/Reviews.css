@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
 
 
+.review-containers div {
+  border-top: 3px dotted #f3c26c;
+  /* width: 90%; */
+}
+
 h2.reviewsTitle {
   display: block;
   margin: 0 auto;
@@ -21,21 +26,16 @@ h2.reviewsTitle {
   justify-content: space-evenly;
   margin-left: 150px;
   margin-right: 150px;
+  margin-top: -25px;
   height: 400px;
 }
 
-.reviews section {
-  font-family: "WorkSans", serif;
-  width: 40%;
-  font-size: 24px;
-  line-height: 30px;
+p.web {
+  font-size: 15px;
+  margin-left: 13%;
+  margin-top: 4%;
 }
 
-p.author {
-  margin-top: 8px;
-  font-size: 16px;
-}
-
-.reviewsQuote span {
-  
+a.web, .web a:visited {
+  color:blue;
 }

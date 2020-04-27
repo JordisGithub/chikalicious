@@ -1,31 +1,45 @@
 import React from "react";
+import Ashley from "../../images/ashleyreview.png";
+import Rpoonai from "../../images/rpoonaireview.png"
+
 import "./Reviews.css";
 
 function Reviews(props) {
   return (
     <div className="review-containers">
       <h2 className="reviewsTitle">Reviews</h2>
-
       <div className="reviews">
         <section>
-          <p>
-            <span className="reviewsQuote">"</span>This will be the best meal
-            you'll ever experience. And yes, dessert. You will leave this place
-            changed for the better. Chika we love you !
-            <span className="reviewsQuote">"</span>
+          <img src={Ashley} alt="Ashley"/>
+          <p className="web">
+            See more on{" "}
+            <span>
+              <a
+                href="https://www.yelp.com/biz/chikalicious-dessert-bar-new-york-3"
+                target="_blank"
+              >
+                Yelp
+              </a>
+            </span>
           </p>
-          <p className="author">-Ashley A.</p>
         </section>
+
         <section>
-          <p>
-            <span className="reviewsQuote">"</span>This is such a wonderful
-            place for a date night, girls' night out or any special celebration.
-            The desserts were artfully presented. A definite must try.
-            <span className="reviewsQuote">"</span>
+          <img src={Rpoonai} alt="Rpoonai"/>
+          <p className="web">
+            See more on{" "}
+            <span>
+              <a
+                href="https://www.google.com/search?sxsrf=ALeKk01IMewqBIBnO5DNDWuzBbQkedcIHg%3A1588024942502&ei=blanXqOUHqiwytMPjpScgAo&q=chikalicious+google+reviews&oq=chikalicious+google+re&gs_lcp=CgZwc3ktYWIQARgAMgUIIRCgATIFCCEQoAEyBQghEKsCMgUIIRCrAjoFCAAQzQJQwxxYsR5g6SRoAHAAeACAAZ0BiAHrBJIBAzAuNZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab#lrd=0x89c2599c49f749b7:0x714d802b46ffd353,1,,,"
+                target="_blank"
+              >
+                Google
+              </a>
+            </span>
           </p>
-          <p className="author">-Rpoonai</p>
         </section>
       </div>
+
     </div>
   );
 }
