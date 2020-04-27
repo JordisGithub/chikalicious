@@ -1,13 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap");
 
-.hero-image img {
-  display: block;
-  margin: 4% auto;
-  width: 80%;
+.hero-container {
+  padding: 0;
+  margin: auto;
+  display: grid;
+  width: 90%;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "i i i i i i i"
+    "i i i i i i i"
+    "i i i i i i i"
+    "i i i i i i i"
+    "i i i i i i i"
+    "i i i i i i i"
+    "i i i i i i i";
 }
 
-.heroTitle h2 {
-  font-family: 'Cormorant', serif;
-  font-size: 64px;
+.hero-button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 800;
+  background-color: #f3c26c;
+  display: grid;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 3;
+  max-width: 15vw;
+  margin-top: 5vh;
+}
+
+.hero-image {
+  max-width: 100%;
+  display: inline;
+  grid-area: i;
+}
+
+.hero-text-block {
+  display: grid;
+  position: relative;
+  text-align: left;
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 2;
+  margin-left: 3vw;
+}
+.heroTitle {
+  font-family: "Cormorant", serif;
+  font-size: 5vw;
   font-weight: bold;
 }
+
+.heroSlogan {
+  font-family: "Cormorant", serif;
+  font-size: 2.4vw;
+  font-weight: 500;
+}
+
+/* return (
+    <div className="hero-container">
+      <img className="hero-image" src={HeroImg} alt="hero"></img>
+
+      <div className="hero-text-block">
+        <h2 className="heroTitle">We Dessert First.</h2>
+        <h4 className="heroSlogan">Even at home.</h4>
+        <button className="hero-button">Order Online</button>
+      </div>
+    </div>
+  );
+} */
