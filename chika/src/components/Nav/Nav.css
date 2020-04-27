@@ -54,3 +54,10 @@ i {
   -webkit-text-stroke-color: black;
   padding: 10px;
 }
+
+
+@media (max-width: 768px) {
+  .container-nav, i, .covidInfo {
+    display: none;
+  }
+}
