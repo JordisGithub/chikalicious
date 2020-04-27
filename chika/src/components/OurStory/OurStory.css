@@ -1,0 +1,35 @@
+.our-story{
+  margin: 5% auto;
+  text-align: center;
+
+}
+.our-story h2{
+  font-family:  'Cormorant', sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.mission{
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.4rem;
+  width: 50%;
+}
+.main-story {
+  display: flex;
+ align-items: center;
+ justify-content:space-around; 
+ width: 100%;
+}
+.title{
+  width: 40%;
+  text-align: left;
+}
+.title img{
+  max-width: 100%;
+}
+.story-two{
+  width: 40%;
+}
+.story-two img {
+ max-width: 100%;
+}

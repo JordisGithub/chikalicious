@@ -7,7 +7,7 @@ import Hero from './components/Hero/Hero';
 // import Hero from "./components/Hero/Hero";
 // import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 // import Menu from "./components/Menu/Menu";
-// import OurStory from "./components/OurStory/OurStory";
+import OurStory from "./components/OurStory/OurStory";
 // import SupportUs from "./components/SupportUs/SupportUs";
 // import Contact from "./components/Contact/Contact";
 // import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
@@ -17,9 +17,10 @@ import Hero from './components/Hero/Hero';
 function App() {
   return (
     <>
-      <Nav /> 
+      <Nav />
       <MobileNav />
       <Hero />
+      <OurStory />
     </>
   );
 }
