@@ -41,7 +41,8 @@
   padding-left: 30px;
 }
 
-.mobile-container a, a:visited {
+.mobile-container a, 
+.mobile-container a:visited {
   color:#f3c26c;
   text-decoration: none;
 }
