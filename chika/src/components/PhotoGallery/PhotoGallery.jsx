@@ -29,7 +29,6 @@ function HeroFoodPhotos(props) {
       <div className="bottom-text">
         See More on <a className="instagram-link">Instagram</a>
       </div>
-      <div className="hero-grid-dotted-line"></div>
     </>
   );
 }
