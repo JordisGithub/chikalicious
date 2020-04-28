@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap");
 
 .container-nav {
+  /* position: fixed; */
+  top:0;
+  left:0;
   display: flex;
   align-items: center;
   padding: 0 10% 0 10%;
@@ -56,31 +59,38 @@ i {
   -webkit-text-stroke-color: black;
   padding: 10px;
 }
-
-@media (max-width: 1135px) {
-  .links a {
-    font-size: 1em;
-    padding: 0 1.8rem;
-  }
-}
-
-@media (max-width: 1025px) {
+@media (max-width: 1415px) {
   .links a {
     font-size: 1em;
     padding: 0 1rem;
   }
 }
-@media (max-width: 890px) {
+
+@media (max-width: 1135px) {
   .links a {
     font-size: 1em;
-    padding: 0 0.rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .links a {
+    font-size: 0.8em;
+    padding: 0 0.3rem;
+  }
+  .logo img 
+  {
+    margin-right: 7px; 
   }
 }
 
 @media (max-width: 768px) {
-  .container-nav,
+  .nav-links,
   i,
   .covidInfo {
     display: none;
+  }
+  .logo img {
+    margin-left: 2rem;
   }
 }
