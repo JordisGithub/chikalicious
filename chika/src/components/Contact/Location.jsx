@@ -65,7 +65,7 @@ class Location extends Component {
                 </div>
               </section>
               <section className="hours-container">
-                $<h4>Hours</h4>
+                <h4>Hours</h4>
                 <p>Wednesday - Sunday</p>
                 <p>pm to 10pm</p>
                 <a href="">FOR TAKEOUT ONLY</a>
