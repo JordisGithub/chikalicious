@@ -12,7 +12,7 @@ import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 import OurStory from "./components/OurStory/OurStory";
 // import SupportUs from "./components/SupportUs/SupportUs";
 // import Contact from "./components/Contact/Contact";
-// import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
+import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
 // import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Hero />
       <HeroFoodPhotos />
       <OurStory />
+      <PhotoGallery />
       <Reviews />
       <Footer />
     </>
