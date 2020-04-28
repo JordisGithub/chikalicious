@@ -2,13 +2,14 @@
 *{
   box-sizing: border-box;
 }
-
-.our-story{
-  margin: 5% auto;
-  margin-left: 130px;
-  margin-right: 130px;
-  text-align: center;
+.border{
   border-top: 3px dotted #f3c26c;
+  width: 85%;
+  margin: 5% auto;
+
+}
+.our-story{
+  text-align: center;
   
 }
 .our-story h2{
