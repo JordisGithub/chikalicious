@@ -49,3 +49,16 @@ p.web {
 a.web, .web a:visited {
   color:blue;
 }
+
+@media (max-width: 768px) {
+  .review-container {
+    height: 600px;
+  }
+
+  .reviews {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+}

@@ -20,7 +20,9 @@
 }
 
 .icons svg {
-  margin: 0 4% 0 4%;
+  margin: 0 10% 0 10%;
+  padding: 4px;
+  text-align: center;
 }
 
 .terms p {

@@ -12,6 +12,7 @@ import BackDrop from './components/Nav/BackDrop'
 import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
 // import Menu from "./components/Menu/Menu";
 import OurStory from "./components/OurStory/OurStory";
+import Contact from './components/Contact/Contact';
 // import SupportUs from "./components/SupportUs/SupportUs";
 // import Contact from "./components/Contact/Contact";
 import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
@@ -46,7 +47,11 @@ class App extends Component {
         <Hero />
         <HeroFoodPhotos />
         <OurStory />
+
         <PhotoGallery />
+
+        <Contact />
+
         <Reviews />
         <Footer />
       </>
