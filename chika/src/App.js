@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { render } from 'react-dom';
+// import BackToTop from "react-back-to-top";
 import Nav from "./components/Nav/Nav";
 import MobileNav from './components/Nav/MobileNav';
 import Hero from './components/Hero/Hero';
@@ -15,6 +16,7 @@ import OurStory from "./components/OurStory/OurStory";
 // import Contact from "./components/Contact/Contact";
 // import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
 // import Footer from "./components/Footer/Footer";
+
 
 class App extends Component {
   state = {
