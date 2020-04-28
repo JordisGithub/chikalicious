@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import logo from "../../images/logo.png";
 import "./Nav.css";
+import DrawerToggleButton from "./DrawerToggleButton";
 
 export default class Nav extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      displayMobile: false,
-    };
+    // this.state = {
+    //   displayMobile: false,
+    // };
   }
   render() {
     return (
       <>
         <div className="container-nav">
+          <DrawerToggleButton click={this.props.drawerClickHandler} />
           <div className="logo">
             <img src={logo} alt="Chikalicious"></img>
           </div>
