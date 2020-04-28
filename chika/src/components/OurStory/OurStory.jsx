@@ -4,7 +4,9 @@ import donchika from '../../images/donchika.png';
 import story from '../../images/chika.jpg';
 
 const OurStory = () => (
+  
   <section className="our-story">
+    <div className="border" />
     <div>
       <h2>Our Story</h2>
       <div className="line" />
@@ -35,6 +37,7 @@ const OurStory = () => (
 
 
   </section>
+ 
 );
 
 export default OurStory;
