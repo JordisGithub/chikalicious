@@ -11,7 +11,9 @@ class Location extends Component {
     return (
       <>
         <div className="location-container">
-          <h2>Location & Hours</h2>
+          <div className="locationTitle">
+          <h2 className="loco">Location & Hours</h2>
+          </div>
           <div>
             <div className="mock-container">
             <div className="map-img">

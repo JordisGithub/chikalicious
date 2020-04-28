@@ -10,6 +10,9 @@ class Social extends Component {
     return (
       <>
         <div className="social-container">
+          <div className="contactTitle">
+          <h2 className="cont">Contact Us</h2>
+          </div>
           <section className="social">
             <h4>Contact</h4>
             <p>info@chikalicious.com</p>
