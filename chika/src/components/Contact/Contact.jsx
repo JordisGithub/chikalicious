@@ -9,10 +9,14 @@ class Contact extends Component {
   }
   render() {
     return (
+      <>
+      <div className="border" />
       <div className="contact-container">
+       
         <Location />
         <Social />
-      </div>
+        </div>
+        </>
     );
   }
 }
