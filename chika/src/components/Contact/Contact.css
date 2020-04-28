@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+
+.contact-container {
+  height: 650px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 10%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.social-container {
+  height: 560px;
+}
+
+h2.loco, h2.cont{
+  height: 60px;
+  width: 340px;
+  font-family: Cormorant;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.loco {
+  border-bottom: 3px solid #f3c26c;
+  padding-bottom: 15px;
+}
+
+
+
+h2.loco {
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
+
+h2.cont {
+  margin-bottom: 25%;
+  margin-left: 10%;
+}
+
+.mock-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+h2.loco, h2.cont {
+  margin-top: 0;
+}
