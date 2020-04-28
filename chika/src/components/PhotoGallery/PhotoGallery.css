@@ -45,16 +45,13 @@
   margin-bottom: 6vh;
 }
 
-.bottom-text a {
+.bottom-text p,
+a {
   font-family: WorkSans;
-  vertical-align: middle;
 }
 a {
   text-decoration: underline;
   color: blue;
-  /* text-align: unset; */
-  /* vertical-align: middle; */
-  /* margin-top: 0; */
 }
 
 a:active {

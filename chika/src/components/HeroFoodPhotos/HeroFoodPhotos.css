@@ -1,7 +1,7 @@
 .hero-photo-grid-container {
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
   width: 90%;
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
   grid-gap: 1rem;
   padding: 0;
   margin: auto;
@@ -18,10 +18,12 @@
   height: 150px;
 }
 
-.hero-photo-grid-container h1 {
-  font-family: brandon-grotesque, sans-serif;
+span {
+  font-family: WorkSans-Light;
   font-weight: 300;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1vw;
+  display: inline-block;
   text-align: center;
+  width: 228px;
 }
