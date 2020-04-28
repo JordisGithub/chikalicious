@@ -1,6 +1,6 @@
 import React from "react";
 import Ashley from "../../images/ashleyreview.png";
-import Rpoonai from "../../images/rpoonaireview.png"
+import Rpoonai from "../../images/rpoonaireview.png";
 
 import "./Reviews.css";
 
@@ -10,7 +10,7 @@ function Reviews(props) {
       <h2 className="reviewsTitle">Reviews</h2>
       <div className="reviews">
         <section>
-          <img src={Ashley} alt="Ashley"/>
+          <img src={Ashley} alt="Ashley" />
           <p className="web">
             See more on{" "}
             <span>
@@ -25,7 +25,7 @@ function Reviews(props) {
         </section>
 
         <section>
-          <img src={Rpoonai} alt="Rpoonai"/>
+          <img src={Rpoonai} alt="Rpoonai" />
           <p className="web">
             See more on{" "}
             <span>
@@ -39,7 +39,10 @@ function Reviews(props) {
           </p>
         </section>
       </div>
-
+      <div className="scrollTop">
+        <p><span className="upArrow" style={{ color: "#f3c26c", fontWeight: "700", fontSize: "15px" }}>^</span></p>
+        <p>Back to Top</p>
+      </div>
     </div>
   );
 }

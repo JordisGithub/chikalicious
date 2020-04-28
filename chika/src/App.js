@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { render } from 'react-dom';
+// import BackToTop from "react-back-to-top";
 import Nav from "./components/Nav/Nav";
 import MobileNav from './components/Nav/MobileNav';
 import Hero from './components/Hero/Hero';
@@ -24,6 +25,14 @@ function App() {
       <HeroFoodPhotos />
       <OurStory />
       <Reviews />
+      {/* <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <span>^</span>
+      </BackToTop> */}
       <Footer />
     </>
   );
