@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Contact.css";
+
 
 class Social extends Component {
   constructor(props) {
