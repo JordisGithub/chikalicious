@@ -7,11 +7,9 @@
   width: 90%;
   height: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     ". . . . . . ."
-    "i i i i i i i"
-    "i i i i i i i"
     "i i i i i i i"
     "i i i i i i i"
     "i i i i i i i"
@@ -19,12 +17,13 @@
 }
 
 .hero-button {
-  padding: 15px 20px;
+  padding: 15px 0px;
   border-radius: 10px;
   font-weight: 800;
   background-color: #f3c26c;
   max-width: 10vw;
   margin-top: 5vh;
+  font-size: 0.9vw;
   /* display: grid; */
   /* position: relative; */
   /* grid-column: 1 / span 1; */
@@ -56,16 +55,3 @@
   font-size: 2.4vw;
   font-weight: 500;
 }
-
-/* return (
-    <div className="hero-container">
-      <img className="hero-image" src={HeroImg} alt="hero"></img>
-
-      <div className="hero-text-block">
-        <h2 className="heroTitle">We Dessert First.</h2>
-        <h4 className="heroSlogan">Even at home.</h4>
-        <button className="hero-button">Order Online</button>
-      </div>
-    </div>
-  );
-} */
