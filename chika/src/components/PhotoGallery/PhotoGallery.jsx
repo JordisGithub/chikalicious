@@ -26,9 +26,21 @@ function HeroFoodPhotos(props) {
         <img className="hero-grid-ind-img" src={PhotoGallery7} />
         <img className="hero-grid-ind-img" src={PhotoGallery8} />
       </div>
+
       <div className="bottom-text">
-        See More on <a className="instagram-link">Instagram</a>
+        <p>
+          See More on
+          <a
+            className="instagram-link"
+            href="https://www.instagram.com/chikaliciousdessertbarnyc/"
+            target="_blank"
+          >
+            {" "}
+            Instagram
+          </a>
+        </p>
       </div>
+      <div className="hero-grid-dotted-line"></div>
     </>
   );
 }

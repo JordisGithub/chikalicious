@@ -1,0 +1,46 @@
+.heading h2 {
+  font-family: cormorant;
+  font-size: 32px;
+  margin: 50px auto 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+.line {
+  border-top: 1px solid #f3c26c;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 7vh;
+}
+
+.container-support {
+  width: 90%;
+  display: grid;
+  grid-gap: 6rem;
+  padding: 0;
+  margin: auto;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.container-support p {
+  font-family: WorkSans;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.container-support a {
+  font-family: WorkSans;
+  font-size: 18px;
+  width: 372px;
+  color: blue;
+}
+
+.container-support img {
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 290px;
+  height: 386px;
+}
