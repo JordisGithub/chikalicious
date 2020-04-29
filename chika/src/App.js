@@ -7,15 +7,12 @@ import Hero from './components/Hero/Hero';
 import Reviews from "./components/Reviews/Reviews";
 import Footer from './components/Footer/Footer';
 import BackDrop from './components/Nav/BackDrop'
-// import Hero from "./components/Hero/Hero";
 import HeroFoodPhotos from "./components/HeroFoodPhotos/HeroFoodPhotos";
-// import Menu from "./components/Menu/Menu";
+import Menu from "./components/Menu/Menu";
 import OurStory from "./components/OurStory/OurStory";
 import Contact from './components/Contact/Contact';
 import SupportUs from "./components/SupportUs/SupportUs";
-// import Contact from "./components/Contact/Contact";
 import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
-// import Footer from "./components/Footer/Footer";
 
 
 class App extends Component {
@@ -45,13 +42,11 @@ class App extends Component {
         {backDrop}
         <Hero />
         <HeroFoodPhotos />
+        <Menu />
         <OurStory />
-
         <PhotoGallery />
         <SupportUs />
-
         <Contact />
-
         <Reviews />
         <Footer />
       </>
