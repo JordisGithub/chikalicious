@@ -25,17 +25,8 @@ h2.loco, .contactTitle h2{
   border-bottom: 3px solid #f3c26c;
   padding-bottom: 15px;
   
-  
 }
 
-/* h2.loco {
-  margin-left: 10%;
-} */
-
-/* h2.cont {
-  margin-bottom: 25%;
-  margin-left: 10%;
-} */
 h2.cont{
   border-bottom: 3px solid #f3c26c;
   padding-bottom: 15px;
@@ -63,13 +54,13 @@ h2.loco, h2.cont {
   align-self: flex-start;
   
 }
-h4{
+.heading-location{
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 1.8em;
   line-height: 2.3;
 }
-p{
+.info-location{
   font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -89,4 +80,23 @@ a.take-out{
 
 .reservation{
   padding-top: 30%;
+}
+@media (max-width: 770px) {
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mock-container{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .trains-container{
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .reservation{
+    padding-top: 0;
+  }
+ 
 }

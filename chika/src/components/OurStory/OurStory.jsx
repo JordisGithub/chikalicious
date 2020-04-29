@@ -9,7 +9,7 @@ const OurStory = () => (
     <div className="border" />
     <div>
       <h2>Our Story</h2>
-      <div className="line" />
+      <div className="line mobile-line" />
       <p className="mission">Our mission was to show off the magic as it happens,
           showing customers how we prepare, plate and serve elegantly
           crafted and tasty desserts.
