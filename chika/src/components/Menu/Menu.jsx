@@ -27,7 +27,7 @@ handleMenu = () => {
   render() {
     return (
       <>
-      <div className="meun">
+      <div className="menu">
       <h2 className="title-menu">Menu</h2>
       <div className="menu-line"></div>
       </div>
@@ -36,10 +36,10 @@ handleMenu = () => {
       <h3 className="menu-title" onClick={this.handleMenu}>Desserts</h3>
       <h3 className="menu-title" onClick={this.handleBeverage}>Beverage</h3>
       </div>
-      
+
       {/* make this div a certain height and weight */}
       <div className="menu-container"> 
-      <img src={this.state.menuPhoto} style={{width: "1200px", height: "550px"}} alt="Menu"/>
+      <img className="img-cont" src={this.state.menuPhoto} style={{width: "1200px", height: "550px"}} alt="Menu"/>
       </div>
       </>
     )
