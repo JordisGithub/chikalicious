@@ -8,19 +8,29 @@ import PrixfixWine from "../../images/Prix_fixe_with_Wine.png";
 
 function HeroFoodPhotos(props) {
   return (
-    <div className="hero-photo-grid-container">
-      <img className="hero-grid-ind-img" src={Prixfix} />
-      {/* <h1>Prix Fix</h1> */}
+    <>
+      <div className="hero-photo-grid-container">
+        <div>
+          <img className="hero-grid-ind-img" src={Prixfix} />
+          <span>Prix Fix</span>
+        </div>
 
-      <img className="hero-grid-ind-img" src={PrixfixCofee} />
-      {/* <h1>Prix Fix Coffee</h1> */}
+        <div>
+          <img className="hero-grid-ind-img" src={PrixfixCofee} />
+          <span>Prix Fix Coffee</span>
+        </div>
 
-      <img className="hero-grid-ind-img" src={PrixfixTea} />
-      {/* <h1>Prix Fix Tea</h1> */}
+        <div>
+          <img className="hero-grid-ind-img" src={PrixfixTea} />
+          <span>Prix Fix Tea</span>
+        </div>
 
-      <img className="hero-grid-ind-img" src={PrixfixWine} />
-      {/* <h1>Prix Fix Wine</h1> */}
-    </div>
+        <div>
+          <img className="hero-grid-ind-img" src={PrixfixWine} />
+          <span>Prix Fix Wine</span>
+        </div>
+      </div>
+    </>
   );
 }
 
