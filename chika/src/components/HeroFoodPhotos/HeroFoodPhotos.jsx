@@ -11,22 +11,30 @@ function HeroFoodPhotos(props) {
     <>
       <div className="hero-photo-grid-container">
         <div>
-          <img className="hero-grid-ind-img" src={Prixfix} />
+          <div className="hero-photo-div">
+            <img className="hero-grid-ind-img" src={Prixfix} />
+          </div>
           <span className="photo-Title">Prix Fix</span>
         </div>
 
         <div>
-          <img className="hero-grid-ind-img" src={PrixfixCofee} />
+          <div className="hero-photo-div">
+            <img className="hero-grid-ind-img" src={PrixfixCofee} />
+          </div>
           <span className="photo-Title">Prix Fix Coffee</span>
         </div>
 
         <div>
-          <img className="hero-grid-ind-img" src={PrixfixTea} />
+          <div className="hero-photo-div">
+            <img className="hero-grid-ind-img" src={PrixfixTea} />
+          </div>
           <span className="photo-Title">Prix Fix Tea</span>
         </div>
 
         <div>
-          <img className="hero-grid-ind-img" src={PrixfixWine} />
+          <div className="hero-photo-div">
+            <img className="hero-grid-ind-img" src={PrixfixWine} />
+          </div>
           <span className="photo-Title">Prix Fix Wine</span>
         </div>
       </div>
