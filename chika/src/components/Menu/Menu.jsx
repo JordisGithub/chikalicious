@@ -15,6 +15,12 @@ export default class Menu extends Component {
   render() {
     return (
       <>
+      <div className="menu-title-cont">
+      <h2 className="menu-title">Menu</h2>
+      </div>
+      <div className="menu-container">
+      <img src={this.state.menuPhoto} alt=""/>
+      </div>
       </>
     )
   }

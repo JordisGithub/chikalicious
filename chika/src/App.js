@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { render } from 'react-dom';
-// import BackToTop from "react-back-to-top";
 import Nav from "./components/Nav/Nav";
 import MobileNav from './components/Nav/MobileNav';
 import Hero from './components/Hero/Hero';
