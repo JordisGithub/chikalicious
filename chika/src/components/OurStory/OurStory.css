@@ -69,3 +69,23 @@
  max-width: 100%;
  height: 657px;
 }
+@media (max-width: 770px) {
+  .main-story{
+   flex-direction: column-reverse;
+   align-items: center;
+  }
+  .story-two{
+    width: 70%;
+  }
+  .title{
+    width: 70%;
+  }
+  .title h5{
+    text-align: center;
+    padding-top: 10%;
+  }
+  .mission{
+    padding-top: 0;
+  }
+ 
+}

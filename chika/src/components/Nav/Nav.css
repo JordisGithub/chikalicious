@@ -93,4 +93,8 @@ i {
   .logo img {
     margin-left: 2rem;
   }
+  /* .container-nav{
+    position: fixed;
+    z-index: 400;
+  } */
 }
