@@ -12,9 +12,14 @@
 }
 
 .hero-photo-div {
-  width: 270px;
-  height: 220px;
+  width: 22vw;
+  height: 400px;
   overflow: hidden;
+  background-position: center;
+  background-image: url("../../images/Prix_fixe.png");
+  background-size: 95%;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 .hero-grid-ind-img {
