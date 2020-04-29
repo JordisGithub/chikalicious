@@ -16,15 +16,39 @@ function HeroFoodPhotos(props) {
       <div className="hero-grid-dotted-line"></div>
       <div className="hero-grid-title">Photo Gallery</div>
       <div className="hero-grid-line"></div>
+
       <div className="hero-photo-grid-container">
-        <img className="hero-grid-ind-img" src={PhotoGallery1} />
-        <img className="hero-grid-ind-img" src={PhotoGallery2} />
-        <img className="hero-grid-ind-img" src={PhotoGallery3} />
-        <img className="hero-grid-ind-img" src={PhotoGallery4} />
-        <img className="hero-grid-ind-img" src={PhotoGallery5} />
-        <img className="hero-grid-ind-img" src={PhotoGallery6} />
-        <img className="hero-grid-ind-img" src={PhotoGallery7} />
-        <img className="hero-grid-ind-img" src={PhotoGallery8} />
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery1} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery2} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery3} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery4} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery5} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery6} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery7} />
+        </div>
+
+        <div className="hero-photo-div">
+          <img className="hero-grid-ind-img" src={PhotoGallery8} />
+        </div>
       </div>
 
       <div className="bottom-text">
