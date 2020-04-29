@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
 
+
 .contact-container {
   display: flex;
   margin: 5% auto;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .social-container {
@@ -16,16 +17,18 @@ h2.loco, .contactTitle h2{
   font-family: Cormorant;
   font-size: 48px;
   font-weight: 500;
+  margin-bottom: 10%;
  
 }
 
 .loco {
   border-bottom: 3px solid #f3c26c;
   padding-bottom: 15px;
+  
+  
 }
 
 /* h2.loco {
-  margin-bottom: 20%;
   margin-left: 10%;
 } */
 
@@ -43,6 +46,9 @@ h2.cont{
   align-items: center;
   
 }
+.map-img{
+  margin-right: 10%;
+}
 
 h2.loco, h2.cont {
   margin-top: 0;
@@ -51,4 +57,36 @@ h2.loco, h2.cont {
 .location-container, .social-container{
   display: flex;
   flex-direction: column;
+  margin: 2% 5%;
+}
+.transportation{
+  align-self: flex-start;
+  
+}
+h4{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  line-height: 2.3;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+
+}
+.trains-container{
+  margin-top: -10%;
+  padding-bottom: 49%;
+}
+a.take-out{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+
+.reservation{
+  padding-top: 30%;
 }

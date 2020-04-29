@@ -32,7 +32,7 @@ class Location extends Component {
                 <h4>Hours</h4>
                 <p>Wednesday - Sunday</p>
                 <p>pm to 10pm</p>
-                <a href="">FOR TAKEOUT ONLY</a>
+                <a className="take-out" href="#">FOR TAKEOUT ONLY</a>
               </section>
             </div>
           </div>
