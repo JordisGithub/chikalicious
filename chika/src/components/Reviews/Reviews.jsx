@@ -1,4 +1,5 @@
 import React from "react";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Ashley from "../../images/ashleyreview.png";
 import Rpoonai from "../../images/rpoonaireview.png";
 
@@ -39,8 +40,8 @@ function Reviews(props) {
           </p>
         </section>
       </div>
-      <div className="scrollTop">
-        <p><span className="upArrow" style={{ color: "#f3c26c", fontWeight: "700", fontSize: "15px" }}>^</span></p>
+        <div className="scrollTop">
+        <ScrollUpButton style={{position: "flex", height: "15px", width: "15px", backgroundColor: "transparent", color: "#f3c26c"}}/>
         <p>Back to Top</p>
       </div>
     </div>
