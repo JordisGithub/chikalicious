@@ -37,8 +37,12 @@ h2.loco, .contactTitle h2{
   margin-left: 10%;
 } */
 h2.cont{
-  border-bottom: 3px solid #f3c26c;
+  /* border-bottom: 3px solid #f3c26c; */
   padding-bottom: 15px;
+}
+.cont-line {
+    border-bottom: 1px solid #f3c26c;
+    width: 60%;
 }
 
 .mock-container {
