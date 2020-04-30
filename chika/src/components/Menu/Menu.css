@@ -52,3 +52,9 @@ h3.menu-title {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .img-cont {
+    display: none;
+  }
+}
