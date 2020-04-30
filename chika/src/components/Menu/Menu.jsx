@@ -27,7 +27,7 @@ handleMenu = () => {
   render() {
     return (
       <>
-      <div className="menu">
+      <div className="menu" id="menu">
       <h2 className="title-menu">Menu</h2>
       <div className="menu-line"></div>
       </div>

@@ -3,13 +3,13 @@ import "./SupportUs.css";
 import staff from "../../images/ChikaliciousStaff.png";
 
 const SupportUs = () => (
-  <section className="support-us">
+  <section className="support-us" id="support">
     <div className="heading">
       <h2>Support Us</h2>
       <div className="line"></div>
     </div>
 
-    <div className="container-support">
+    <div className="container-support" >
       <div>
         <p>
           We ask for your help in this time of uncertainty. Please support our
