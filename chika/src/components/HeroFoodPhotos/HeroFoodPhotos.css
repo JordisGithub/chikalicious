@@ -2,12 +2,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 90%;
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   padding: 0;
   margin: auto;
   align-items: center;
   /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
   margin-top: 40px;
+  margin-bottom: 100px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -21,14 +22,14 @@
 .hero-photo-div4 {
   display: grid;
   /* width: 95%; */
-  width: 250px;
-  height: 150px;
+  width: 400px;
+  height: 250px;
   overflow: hidden;
   background-position: center;
   background-size: 95%;
   background-repeat: no-repeat;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   display: inline-block;
 }
 
