@@ -59,6 +59,10 @@ a.web, .web a:visited {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    margin: 5px;
+    margin: 10%;
+  }
+
+  div.scrollTop { 
+    margin: 20% 0px;
   }
 }

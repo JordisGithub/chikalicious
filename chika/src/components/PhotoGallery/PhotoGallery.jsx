@@ -17,7 +17,7 @@ function HeroFoodPhotos(props) {
       <div className="hero-grid-title">Photo Gallery</div>
       <div className="hero-grid-line"></div>
 
-      <div className="hero-photo-grid-container">
+      <div className="hero-photo-grid-container" id="photo">
         <div className="hero-photo-div">
           <img className="hero-grid-ind-img" src={PhotoGallery1} />
         </div>

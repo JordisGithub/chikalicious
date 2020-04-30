@@ -5,7 +5,7 @@ import story from '../../images/chika.jpg';
 
 const OurStory = () => (
   
-  <section className="our-story">
+  <section className="our-story" id="story">
     <div className="border" />
     <div>
       <h2>Our Story</h2>
