@@ -21,22 +21,22 @@ export default class Nav extends Component {
           <div className="nav-links">
             <ul>
               <li className="links">
-                <a href="#">Menu</a>
+                <a href="#menu">Menu</a>
               </li>
               <li className="links">
-                <a href="#">Our Story</a>
+                <a href="#story">Our Story</a>
               </li>
               <li className="links">
-                <a href="#">Support Us</a>
+                <a href="#support">Support Us</a>
               </li>
               <li className="links">
-                <a href="#">Location & Hours</a>
+                <a href="#location">Location & Hours</a>
               </li>
               <li className="links">
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </li>
               <li className="links">
-                <a href="#">Photo Gallery</a>
+                <a href="#photo">Photo Gallery</a>
               </li>
             </ul>
           </div>
