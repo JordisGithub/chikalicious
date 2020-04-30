@@ -16,12 +16,13 @@
 }
 
 .container-support {
-  width: 90%;
+  width: 80%;
   display: grid;
   grid-gap: 6rem;
   padding: 0;
   margin: auto;
   align-items: center;
+  vertical-align: middle;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
@@ -45,11 +46,12 @@
   width: 290px;
   height: 386px;
 }
-@media (max-width: 768px){
-  .container-support{
-  justify-items: center;
+@media (max-width: 768px) {
+  .container-support {
+    justify-items: center;
+    width: 75%;
   }
-  .line{
+  .line {
     width: 30%;
   }
 }
