@@ -1,42 +1,75 @@
 .hero-photo-grid-container {
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   width: 90%;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   padding: 0;
   margin: auto;
-  margin-top: -140px;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-bottom: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 40px;
 }
 
-.hero-photo-div {
-  width: 22vw;
-  height: 400px;
+.hero-photo-div,
+.hero-photo-div2,
+.hero-photo-div3,
+.hero-photo-div4 {
+  display: grid;
+  width: 240px;
+  height: 150px;
   overflow: hidden;
   background-position: center;
-  background-image: url("../../images/Prix_fixe.png");
   background-size: 95%;
   background-repeat: no-repeat;
   margin: auto;
+  position: relative;
 }
 
-.hero-grid-ind-img {
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  /* height: 150px; */
+.hero-photo-div:hover,
+.hero-photo-div2:hover,
+.hero-photo-div3:hover,
+.hero-photo-div4:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+.hero-photo-div {
+  background-image: url("../../images/Prix_fixe.png");
+}
+.hero-photo-div2 {
+  background-image: url("../../images/Prix_fixe_with_Wine.png");
+}
+.hero-photo-div3 {
+  background-image: url("../../images/Prix_fixe_with_tea.JPG");
+}
+.hero-photo-div4 {
+  background-image: url("../../images/Prix_fix_with_coffee.png");
 }
 
 span.photo-Title {
   font-family: WorkSans-Light;
   font-weight: 300;
   font-style: normal;
-  font-size: 1vw;
+  font-size: 10pt;
   display: inline-block;
+  display: grid;
   text-align: center;
-  width: 228px;
-  margin-top: 20px;
+  margin: 10px 0 20px;
 }
+
+/* @media (max-width: 1190px) {
+  .hero-photo-grid-container {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 0;
+    margin: auto;
+    align-items: center;
+  }
+  .hero-photo-div,
+  .hero-photo-div2,
+  .hero-photo-div3,
+  .hero-photo-div4 {
+    width: 2fr;
+  }
+} */

@@ -13,42 +13,21 @@ import PhotoGallery8 from "../../images/PhotoGallery_tile8.JPG";
 function HeroFoodPhotos(props) {
   return (
     <>
-      <div className="hero-grid-dotted-line"></div>
-      <div className="hero-grid-title">Photo Gallery</div>
-      <div className="hero-grid-line"></div>
 
-      <div className="hero-photo-grid-container" id="photo">
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery1} />
-        </div>
+      <div className="instagram-grid-dotted-line2"></div>
+      <div className="instagram-grid-title">Photo Gallery</div>
+      <div className="instagram-grid-line"></div>
 
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery2} />
-        </div>
+      <div className="instagram-photo-grid-container">
+        <div className="instagram-photo-div"></div>
+        <div className="instagram-photo-div2"></div>
+        <div className="instagram-photo-div3"></div>
+        <div className="instagram-photo-div4"></div>
+        <div className="instagram-photo-div5"></div>
+        <div className="instagram-photo-div6"></div>
+        <div className="instagram-photo-div7"></div>
+        <div className="instagram-photo-div8"></div>
 
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery3} />
-        </div>
-
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery4} />
-        </div>
-
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery5} />
-        </div>
-
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery6} />
-        </div>
-
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery7} />
-        </div>
-
-        <div className="hero-photo-div">
-          <img className="hero-grid-ind-img" src={PhotoGallery8} />
-        </div>
       </div>
 
       <div className="bottom-text">
@@ -64,7 +43,7 @@ function HeroFoodPhotos(props) {
           </a>
         </p>
       </div>
-      <div className="hero-grid-dotted-line"></div>
+      <div className="instagram-grid-dotted-line2"></div>
     </>
   );
 }
