@@ -12,7 +12,8 @@ class Location extends Component {
       <>
         <div className="location-container">
           <div className="locationTitle">
-          <h2 className="loco">Location & Hours</h2>
+            <h2 className="loco">Location & Hours</h2>
+            <div className="cont-line"></div>
           </div>
           <div>
             <div className="mock-container">
@@ -21,17 +22,17 @@ class Location extends Component {
             </div>
             <div className="transportation">
               <section className="trains-container">
-                <h4>Location</h4>
-                <p>203 E. 10th St.</p>
-                <p>between 1st Ave. & 2nd Ave.</p>
+                <h4 className="heading-location">Location</h4>
+                <p className="info-location">203 E. 10th St.</p>
+                <p className="info-location">between 1st Ave. & 2nd Ave.</p>
                 <div className="train-icons">
                   <img style={{width: "80px", height: "25px"}} src={Train} alt="trains"/>
                 </div>
               </section>
               <section className="hours-container">
-                <h4>Hours</h4>
-                <p>Wednesday - Sunday</p>
-                <p>pm to 10pm</p>
+                <h4 className="heading-location">Hours</h4>
+                <p className="info-location">Wednesday - Sunday</p>
+                <p className="info-location">pm to 10pm</p>
                 <a className="take-out" href="#">FOR TAKEOUT ONLY</a>
               </section>
             </div>

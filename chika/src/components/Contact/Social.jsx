@@ -15,9 +15,9 @@ class Social extends Component {
           <div className="cont-line"></div>
           </div>
           <section className="social">
-            <h4>Contact</h4>
-            <p>info@chikalicious.com</p>
-            <p>Phone 212.995.9511</p>
+            <h4 className="heading-location">Contact</h4>
+            <p className="info-location">info@chikalicious.com</p>
+            <p className="info-location">Phone 212.995.9511</p>
             <div className="social-icons">
               <a
                 className="social-li"
@@ -95,12 +95,12 @@ class Social extends Component {
             </div>
           </section>
           <section className="reservation">
-            <h4>Reservations</h4>
-            <p>cdbreservations@gmail.com</p>
-            <p>Thursday - Sunday</p>
-            <p>3 PM, 5PM, 7PM</p>
-            <p>First come, first serve</p>
-            <p>thereafter until 10:45 PM.</p>
+            <h4 className="heading-location">Reservations</h4>
+            <p className="info-location">cdbreservations@gmail.com</p>
+            <p className="info-location">Thursday - Sunday</p>
+            <p className="info-location">3 PM, 5PM, 7PM</p>
+            <p className="info-location">First come, first serve</p>
+            <p className="info-location">thereafter until 10:45 PM.</p>
           </section>
         </div>
       </>

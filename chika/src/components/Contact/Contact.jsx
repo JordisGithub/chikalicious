@@ -11,8 +11,7 @@ class Contact extends Component {
     return (
       <>
       <div className="border" />
-      <div className="contact-container">
-       
+      <div className="contact-container" id="location" id="contact"> 
         <Location />
         <Social />
         </div>
