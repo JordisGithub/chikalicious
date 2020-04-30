@@ -27,7 +27,7 @@
   padding: 0;
   margin: auto;
   align-items: center;
-  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  /* grid-template-columns: repeat(4, minmax(240px, 1fr)); */
   margin-bottom: 40px;
   /* ========test=========== */
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -46,17 +46,17 @@
 .instagram-photo-div7,
 .instagram-photo-div8 {
   display: grid;
-  width: 240px;
-  height: 240px;
+  /* width: 240px; */
   overflow: hidden;
   background-position: center;
-  background-size: 95%;
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: auto;
   margin-top: 5rem;
 
   position: relative;
   overflow: hidden;
+  height: 400px;
   width: 400px;
 }
 
