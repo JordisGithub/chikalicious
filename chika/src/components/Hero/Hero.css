@@ -3,6 +3,7 @@
 .hero-container {
   padding: 0;
   margin: auto;
+  margin-top: -25px;
   display: grid;
   width: 90%;
   height: auto;
@@ -43,6 +44,7 @@
   grid-column: 1 / span 4;
   grid-row: 3 / span 2;
   margin-left: 3vw;
+  margin-top: -20px;
 }
 .heroTitle {
   font-family: "Cormorant", serif;
@@ -54,4 +56,52 @@
   font-family: "Cormorant", serif;
   font-size: 2.4vw;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    display: none;
+  }
+
+  .hero-container {
+    background-color: #e7f2f5;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 330px;
+  }
+
+  .hero-button {
+    padding: 15px 0px;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: #f3c26c;
+    width: 30vw;
+    height: 9vh;
+    margin-top: 5vh;
+    font-size: 2.3vw;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .hero-text-block {
+    margin: auto;
+    width: 100%;
+  }
+  .heroTitle {
+    font-family: "Cormorant", serif;
+    font-size: 9vw;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .heroSlogan {
+    font-family: "Cormorant", serif;
+    font-size: 4vw;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 50px;
+  }
 }
