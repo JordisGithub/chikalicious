@@ -37,7 +37,6 @@ handleMenu = () => {
       <h3 className="menu-title" onClick={this.handleBeverage}>Beverage</h3>
       </div>
 
-      {/* make this div a certain height and weight */}
       <div className="menu-container"> 
       <img className="img-cont" src={this.state.menuPhoto} style={{width: "1200px", height: "550px"}} alt="Menu"/>
       </div>
