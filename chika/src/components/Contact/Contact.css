@@ -17,15 +17,15 @@ h2.loco, .contactTitle h2{
   font-family: Cormorant;
   font-size: 48px;
   font-weight: 500;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
  
 }
 
-.loco {
-  border-bottom: 3px solid #f3c26c;
+/* .loco {
+  border-bottom: 1px solid #f3c26c;
   padding-bottom: 15px;
   
-}
+} */
 
 h2.cont{
   /* border-bottom: 3px solid #f3c26c; */
@@ -34,6 +34,8 @@ h2.cont{
 .cont-line {
     border-bottom: 1px solid #f3c26c;
     width: 60%;
+    margin-bottom: 12%;
+    margin-top: 4%;
 }
 
 .mock-container {
@@ -85,7 +87,7 @@ a.take-out{
 .reservation{
   padding-top: 30%;
 }
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
     justify-content: center;

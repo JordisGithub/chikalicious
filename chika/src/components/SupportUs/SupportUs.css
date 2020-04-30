@@ -12,6 +12,7 @@
   width: 15%;
   margin: auto;
   margin-bottom: 7vh;
+  margin-top: 2%;
 }
 
 .container-support {
@@ -43,4 +44,12 @@
   overflow: hidden;
   width: 290px;
   height: 386px;
+}
+@media (max-width: 768px){
+  .container-support{
+  justify-items: center;
+  }
+  .line{
+    width: 30%;
+  }
 }
