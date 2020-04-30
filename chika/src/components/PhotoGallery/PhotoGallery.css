@@ -29,6 +29,13 @@
   align-items: center;
   grid-template-columns: repeat(4, minmax(240px, 1fr));
   margin-bottom: 40px;
+  /* ========test=========== */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 .instagram-photo-div,
 .instagram-photo-div2,
@@ -118,7 +125,7 @@ a:active {
   color: black;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .instagram-photo-grid-container {
     grid-template-columns: 1fr 1fr;
     width: 90%;
@@ -142,4 +149,4 @@ a:active {
     align-items: center;
     margin-bottom: 40px;
   }
-}
+} */
