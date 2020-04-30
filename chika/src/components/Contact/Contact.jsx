@@ -10,8 +10,8 @@ class Contact extends Component {
   render() {
     return (
       <>
-      <div className="border" />
-      <div className="contact-container" id="location" id="contact"> 
+      <div className="border" id="location" />
+      <div className="contact-container" id="contact"> 
         <Location />
         <Social />
         </div>
