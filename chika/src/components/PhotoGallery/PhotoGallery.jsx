@@ -14,7 +14,7 @@ function HeroFoodPhotos(props) {
   return (
     <>
 
-      <div className="instagram-grid-dotted-line2"></div>
+      <div className="instagram-grid-dotted-line2" id="photo"></div>
       <div className="instagram-grid-title">Photo Gallery</div>
       <div className="instagram-grid-line"></div>
 
