@@ -30,7 +30,7 @@ function HeroFoodPhotos(props) {
       </div>
 
       <div className="bottom-text">
-        <p>
+        <p className="insta">
           See More on
           <a
             className="instagram-link"
