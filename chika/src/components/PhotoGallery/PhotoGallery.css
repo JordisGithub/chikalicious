@@ -20,6 +20,10 @@
   margin: auto;
 }
 
+p.insta {
+ text-align: center;
+}
+
 .instagram-photo-grid-container {
   width: 90%;
   display: grid;
