@@ -1,91 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+* {
   box-sizing: border-box;
 }
-.border{
+
+.border {
   border-top: 3px dotted #f3c26c;
   width: 85%;
   margin: 0 auto;
   margin-top: 5%;
 }
-.our-story{
+.our-story {
   text-align: center;
   margin-bottom: 5%;
-  
 }
-.our-story h2{
-  font-family:  'Cormorant', sans-serif;
+.our-story h2 {
+  font-family: "Cormorant", sans-serif;
   font-weight: 600;
   font-size: 2.8rem;
   padding-bottom: 1.2rem;
   padding-top: 1em;
 }
-.line{
+.line {
   margin: 0 auto;
   border-bottom: 1px solid #f3c26c;
   width: 11%;
 }
-.mission{
+.mission {
   margin: 0 auto;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   width: 40%;
   padding-top: 2.2rem;
   padding-bottom: 3.5rem;
   line-height: 1.3;
-  
 }
 .main-story {
- display: flex;
- justify-content: center;
- width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.title{
+.title {
   width: 38%;
   text-align: left;
 }
 .title h5 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   font-size: 1.8rem;
   padding-bottom: 5%;
-  
 }
-.title p{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.0rem;
+.title p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
   padding-bottom: 5%;
-  
 }
-.title img{
+.title img {
   max-width: 100%;
   /* width: 600px; */
 }
-.story-two{
+.story-two {
   width: 40%;
 }
 .story-two img {
- max-width: 100%;
- height: 657px;
+  max-width: 100%;
+  height: 657px;
 }
 @media (max-width: 768px) {
-  .main-story{
-   flex-direction: column-reverse;
-   align-items: center;
+  .main-story {
+    flex-direction: column-reverse;
+    align-items: center;
   }
-  .story-two{
+  .story-two {
     width: 70%;
   }
-  .title{
+  .title {
     width: 70%;
   }
-  .title h5{
+  .title h5 {
     text-align: center;
     padding-top: 10%;
   }
-  .mission{
+  .mission {
     padding-top: 0;
   }
- 
 }

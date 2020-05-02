@@ -75,7 +75,7 @@ export default class Menu extends Component {
         {/* =========================================
                 Test Menu
         ========================================= */}
-        <div className="menu-highlight-container">
+        <div className="menu-highlight-container" onClick={this.handleMenu}>
           <h1 className="menu-highlight-heading">
             All Desserts are $18 <span className="menu-highlight-indent" /> |{" "}
             <span className="menu-highlight-indent" />
@@ -97,6 +97,7 @@ export default class Menu extends Component {
           </div>
 
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -109,6 +110,7 @@ export default class Menu extends Component {
           </div>
 
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -121,6 +123,7 @@ export default class Menu extends Component {
           </div>
 
           <div className="dessert-menu-price">
+            <p></p>
             <p>$22</p>
           </div>
 
@@ -129,6 +132,7 @@ export default class Menu extends Component {
             <h4>Pairing: Malvasia di Casorzo Dolce 2017</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -140,6 +144,7 @@ export default class Menu extends Component {
             <h4>Pairing: Moscato d’Asti, La Moradina 2018</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -148,6 +153,7 @@ export default class Menu extends Component {
             <h4>Packaged to go</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$8</p>
           </div>
 
@@ -159,6 +165,7 @@ export default class Menu extends Component {
             <h4>Pairing: Yalumba Muscat Museum Reserve</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -170,6 +177,7 @@ export default class Menu extends Component {
             <h4>Pairing: Churchill Graham Reserve Port</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$25</p>
           </div>
 
@@ -178,13 +186,17 @@ export default class Menu extends Component {
             <h4>Packaged to go</h4>
           </div>
           <div className="dessert-menu-price">
+            <p></p>
             <p>$10</p>
           </div>
         </div>
         {/* =============================================================== 
         Test Drinks Menu //
         =============================================================== */}
-        <div className="beverage-highlight-container">
+        <div
+          className="beverage-highlight-container"
+          onClick={this.handleBeverage}
+        >
           <h1 className="beverage-highlight-heading">
             Today's Sparkling House Cocktail
           </h1>
@@ -194,97 +206,172 @@ export default class Menu extends Component {
 
         <div className="beverage-menu-size-heading">
           <h4>glass</h4>
-          <h4>bottle</h4>
+          <h3>bottle</h3>
           <h4>glass</h4>
-          <h4>bottle</h4>
+          <h3>bottle</h3>
           <h4>glass</h4>
-          <h4>bottle</h4>
+          <h3>bottle</h3>
         </div>
 
         <div className="beverage-menu-container">
-          <div className="beverage-menu-container-div">
-            <h3>Champagne</h3>
-            <p>Moet & Chandon Imperial Brut </p>
-            <p>NV Veuve Clicquot Ponsardin NV</p>
-            <p>Veuve Clicquot Ponsardin Rose NV</p>
-            <p>Dom Perignon Brut 2000</p>
-          </div>
-          <div className="beverage-menu-container-glass-prices"></div>
-          <div className="beverage-menu-container-bottle-prices">
-            <p>$30 (375ml)</p>
-            <p>$30 (375ml)</p>
-            <p>$98 (750ml)</p>
-            <p>$235 (750ml)</p>
+          <div className="beverage-menu-left-section">
+            <div className="beverage-menu-container-div">
+              <h3>Champagne</h3>
+              <p>Moet & Chandon Imperial Brut </p>
+              <p>NV Veuve Clicquot Ponsardin NV</p>
+              <p>Veuve Clicquot Ponsardin Rose NV</p>
+              <p>Dom Perignon Brut 2000</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices"></div>
+
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$30 (375ml)</p>
+              <p>$30 (375ml)</p>
+              <p>$98 (750ml)</p>
+              <p>$235 (750ml)</p>
+            </div>
+
+            <div className="beverage-menu-container-div">
+              <h3>Sparkling Wine </h3>
+              <p>Prosecco Del Veneto </p>
+              <p>Brachetto d’Acqui Banfi 2007</p>
+              <p>Moscato dEAsti, La Spinetta 2007</p>
+            </div>
+
+            <div className="beverage-menu-container-glass-prices">
+              <p>$9</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$31 (750ml)</p>
+              <p>$19 (187ml)</p>
+              <p>$98 (750ml)</p>
+            </div>
+
+            <div className="beverage-menu-container-div">
+              <h3>White Wine </h3>
+              <p>Paso a Paso Verdejo 2007 </p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$12</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$32 (750ml)</p>
+            </div>
+            <div className="beverage-menu-container-div">
+              <h3>Sherry </h3>
+              <p>Alvear Pedro Ximenez 2004 </p>
+              <p>Lustau Cream Sherry Solera Reserva</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$13</p>
+              <p>$12</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$55 (37 5ml)</p>
+            </div>
           </div>
 
-          <div className="beverage-menu-container-div">
-            <h3>Sparkling Wine </h3>
-            <p>Prosecco Del Veneto </p>
-            <p>Brachetto d’Acqui Banfi 2007</p>
-            <p>Moscato dEAsti, La Spinetta 2007</p>
+          <div className="beverage-menu-middle-section">
+            <div className="beverage-menu-container-div">
+              <h3> Red Wine</h3>
+              <p>Vega Sindoa Tempranillo 2007</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$12</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$32 (750ml)</p>
+            </div>
+
+            <div className="beverage-menu-container-div">
+              <h3>White Dessert Wine </h3>
+              <p> Ice Wine, Vidal Vin Blanc Doux 2005 </p>
+              <p> Sauternes, Le Tertre D’or 2005 </p>
+              <p> Campbells Rutherglen Muscat </p>
+              <p>Quady Essensia Orange</p>
+              <p>Muscat 2006 </p>
+              <p>Moscatel De Lustau Emilin </p>
+            </div>
+
+            <div className="beverage-menu-container-glass-prices">
+              <p>$12</p>
+              <p>$12</p>
+              <p>$10</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$32 (750ml)</p>
+              <p>$43 (375ml)</p>
+              <p>$43 (375ml)</p>
+            </div>
+
+            <div className="beverage-menu-container-div">
+              <h3>Red Dessert Wine </h3>
+              <p>Banyuls Les Clos de Paulilles 2006 </p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$13</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices"></div>
+            <div className="beverage-menu-container-div">
+              <h3> Port </h3>
+              <p>Taylor Fladgate 10yr Tawny Churchill</p>
+              <p>Graham Reserve Port</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$13</p>
+              <p>$12</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices"></div>
           </div>
 
-          <div className="beverage-menu-container-div">
-            <h3>White Wine </h3>
-            <p>Paso a Paso Verdejo 2007 </p>
-          </div>
+          <div className="beverage-menu-right-section">
+            <div className="beverage-menu-container-div">
+              <h3> Beer</h3>
+              <p>McSorley’s Irish Pale Ale</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$5</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices"></div>
 
-          <div className="beverage-menu-container-div">
-            <h3> Red Wine</h3>
-            <p>Vega Sindoa Tempranillo 2007</p>
-          </div>
+            <div className="beverage-menu-container-div">
+              <h3>Water & Juice</h3>
+              <p>Saratoga still</p>
+              <p> Perrier</p>
+              <p> Orangina</p>
+            </div>
 
-          <div className="beverage-menu-container-div">
-            <h3>White Dessert Wine </h3>
-            <p> Ice Wine, Vidal Vin Blanc Doux 2005 </p>
-            <p> Sauternes, Le Tertre D’or 2005 </p>
-            <p> Campbells Rutherglen Muscat </p>
-            <p>Quady Essensia Orange</p>
-            <p>Muscat 2006 </p>
-            <p>Moscatel De Lustau Emilin </p>
-          </div>
+            <div className="beverage-menu-container-glass-prices"></div>
+            <div className="beverage-menu-container-bottle-prices">
+              <p>$3.5 (12oz)</p>
+              <p>$3.5 (12oz)</p>
+              <p>$3.5 (12oz)</p>
+            </div>
 
-          <div className="beverage-menu-container-div">
-            <h3>Red Dessert Wine </h3>
-            <p>Banyuls Les</p>
-            <p>Clos de Paulilles 2006 </p>
-          </div>
-
-          <div className="beverage-menu-container-div">
-            <h3> Port </h3>
-            <p>Taylor Fladgate 10yr Tawny Churchill</p>
-            <p>Graham Reserve Port</p>
-          </div>
-
-          <div className="beverage-menu-container-div">
-            <h3>Sherry </h3>
-            <p>Alvear Pedro Ximenez 2004 </p>
-            <p>Lustau Cream Sherry Solera Reserva</p>
-          </div>
-
-          <div className="beverage-menu-container-div">
-            <h3> Beer</h3>
-            <p>McSorley’s Irish Pale Ale</p>
-          </div>
-
-          <div className="beverage-menu-container-div">
-            <h3>Water & Juice</h3>
-            <p>Saratoga still</p>
-            <p> Perrier</p>
-            <p> Orangina</p>
-          </div>
-
-          <div className="beverage-menu-container-div">
-            <h3>Coffee & Tea Personal</h3>
-            <p>Pot of French Press Coffee</p>
-            <p>Espresso</p>
-            <p>Cappuccino</p>
-            <p>Café au Lait</p>
-            <p>Personal Pot of Tea</p>
-            <p>Iced Coffee</p>
-            <p>Iced Tea</p>
-            <p>Iced Cappuccino</p>
-            <p>Iced Café Latte</p>
+            <div className="beverage-menu-container-div">
+              <h3>Coffee & Tea Personal</h3>
+              <p>Pot of French Press Coffee</p>
+              <p>Espresso</p>
+              <p>Cappuccino</p>
+              <p>Café au Lait</p>
+              <p>Personal Pot of Tea</p>
+              <p>Iced Coffee</p>
+              <p>Iced Tea</p>
+              <p>Iced Cappuccino</p>
+              <p>Iced Café Latte</p>
+            </div>
+            <div className="beverage-menu-container-glass-prices">
+              <p>$3.5</p>
+              <p>$3.5</p>
+              <p>$5.0</p>
+              <p>$5.0</p>
+              <p>$3.5</p>
+              <p>$4.0</p>
+              <p>$3.5</p>
+              <p>$5.5</p>
+              <p>$5.5</p>
+            </div>
+            <div className="beverage-menu-container-bottle-prices"></div>
           </div>
         </div>
       </>
