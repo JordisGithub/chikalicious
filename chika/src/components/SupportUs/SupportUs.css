@@ -2,6 +2,11 @@
           Title & lines on top
 ====================================== */
 
+.supportus-dotted-divider {
+  margin: 0 10%;
+  border-top: 3px dotted #f3c26c;
+}
+
 .heading h2 {
   font-family: cormorant;
   font-size: 2.8rem;

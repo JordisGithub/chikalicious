@@ -172,68 +172,74 @@ h3.menu-title {
 }
 
 .beverage-menu-size-heading {
-  border: 2px purple solid;
+  /* border: 2px purple solid; */
   width: 90%;
   display: grid;
-  /* grid-template-columns: 1fr 5vw 1fr 5vw 1fr 5vw; */
-  grid-template-columns: 22vw 8vw 22vw 8vw 22vw 8vw;
+  grid-template-columns: 22.5vw 7vw 23vw 7vw 23vw 7vw;
   margin: auto;
   margin-top: 50px;
-  /* grid-gap: 40px; */
 }
 
 .beverage-menu-size-heading h4 {
-  border: 2px greenyellow solid;
+  /* border: 2px greenyellow solid; */
   text-align: end;
+
+  font-family: WorkSans, sans-serif;
+
+  font-size: 12px;
+}
+.beverage-menu-size-heading h3 {
+  /* border: 2px greenyellow solid; */
+  text-align: center;
+  font-family: WorkSans, sans-serif;
+
+  font-size: 12px;
+  font-weight: bold;
+  /* line-height: 2; */
 }
 
 .beverage-menu-container {
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
   width: 90%;
   display: grid;
-  grid-template-columns: 0.8fr 3.5vw 7.9vw 0.8fr 3.5vw 7.9vw 0.8fr 3.5vw 7.9vw;
-  /* grid-gap: 10px; */
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   margin-bottom: 50px;
   margin-top: 15px;
 }
 
-.beverage-menu-container-div {
-  border: 2px red solid;
+.beverage-menu-left-section,
+.beverage-menu-middle-section,
+.beverage-menu-right-section {
+  /* border: 2px black solid; */
   align-items: right;
   margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 19.5vw 3vw 6vw;
 }
 
 .beverage-menu-container h3 {
+  /* border: 2px black solid; */
   font-family: WorkSans, sans-serif;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 800;
   line-height: 1.42;
   letter-spacing: normal;
+  margin-top: 10px;
 }
 
-.beverage-menu-container-glass-prices {
-  border: 2px pink solid;
-}
-
+.beverage-menu-container-glass-prices,
 .beverage-menu-container-bottle-prices {
-  border: 2px brown solid;
+  /* border: 2px brown solid; */
+  font-family: WorkSans, sans-serif;
+  font-size: 0.85vw;
+  line-height: 17pt;
+  text-align: center;
+  padding-top: 4.8vh;
 }
 
-.dessert-menu-container h4 {
-  padding-top: 5px;
+.beverage-menu-container-div p {
   font-family: WorkSans, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  font-stretch: wider;
-  font-style: normal;
-  line-height: 1.42;
-  letter-spacing: normal;
-  color: #000000;
-}
-
-.dessert-menu-price p {
-  font-family: WorkSans, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 1.1vw;
+  line-height: 16pt;
 }
