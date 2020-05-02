@@ -2,8 +2,8 @@
 
 .container-nav {
   /* position: fixed; */
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   padding: 0 10% 0 10%;
@@ -16,6 +16,7 @@
 .logo img {
   width: 100px;
   margin-right: 40px;
+  padding: 5%;
 }
 
 .nav-links ul {
@@ -39,17 +40,23 @@
 .links a:hover {
   color: white;
 }
+.covid-mobile {
+  background-color: #ffe5b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .covidInfo {
-  background-color: #ffe59b;
-  text-align: center;
-  line-height: 40px;
+  /* background-color: #ffe59b;
+  text-align: center; */
+  /* line-height: 40px; */
   justify-content: center;
   font-size: 1vw;
-  font-weight: normal;
+  /* font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  letter-spacing: normal;
+  letter-spacing: normal; */
 }
 
 i {
@@ -78,24 +85,43 @@ i {
     font-size: 0.8em;
     padding: 0 0.3rem;
   }
-  .logo img 
-  {
-    margin-right: 7px; 
+  .logo img {
+    margin-right: 7px;
   }
 }
 
 @media (max-width: 768px) {
-  .nav-links,
-  i,
-  .covidInfo {
+  .nav-links {
     display: none;
   }
   .logo img {
-    margin-left: 2rem;
+    margin-left: 5rem;
   }
 
   .container-nav {
     position: fixed;
+    z-index: 400;
+  }
+  .covid-mobile {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  .covidInfo {
+    width: 80%;
+    line-height: 1.5;
+    font-size: 2.2vw;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: left;
+  }
+  i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    align-self: flex-start;
   }
   /* .container-nav{
     position: fixed;

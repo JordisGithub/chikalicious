@@ -1,6 +1,10 @@
+/* ======================================
+          Title & lines on top
+====================================== */
+
 .heading h2 {
   font-family: cormorant;
-  font-size: 50px;
+  font-size: 2.8rem;
   margin: 50px auto 0;
   text-align: center;
   vertical-align: middle;
@@ -9,32 +13,36 @@
 
 .line {
   border-top: 1px solid #f3c26c;
-  width: 15%;
+  width: 150px;
   margin: auto;
   margin-bottom: 7vh;
-  margin-top: 2%;
 }
 
+/* ======================================
+          support us three sections
+====================================== */
+
 .container-support {
-  width: 80%;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  width: 80%;
   grid-gap: 6rem;
   padding: 0;
   margin: auto;
-  align-items: center;
-  vertical-align: middle;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-.container-support p {
-  font-family: WorkSans;
-  font-size: 18px;
+.support-description,
+.support-description-mobile,
+.support-description-desktop {
+  font-family: WorkSans, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   margin-bottom: 100px;
 }
 
 .container-support a {
-  font-family: WorkSans;
-  font-size: 18px;
+  font-family: WorkSans, sans-serif;
+  font-size: 16px;
   width: 372px;
   color: blue;
 }
@@ -43,15 +51,57 @@
   margin: auto;
   position: relative;
   overflow: hidden;
-  width: 290px;
-  height: 386px;
+  width: 100%;
 }
+
+.support-pic {
+  overflow: hidden;
+  width: 80%;
+}
+
+.support-description-mobile {
+  display: none;
+}
+
+/* ======================================
+          Mobile Version
+====================================== */
+
 @media (max-width: 768px) {
   .container-support {
     justify-items: center;
-    width: 75%;
+    width: 85%;
+    grid-template-columns: 1fr;
+    margin: auto;
   }
-  .line {
-    width: 30%;
+
+  .support-description,
+  .support-description-mobile,
+  .support-description-desktop {
+    font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .container-support a {
+    font-family: WorkSans, sans-serif;
+    font-size: 22px;
+    width: 372px;
+    color: blue;
+  }
+
+  .support-description-mobile {
+    display: contents;
+  }
+
+  .support-description-desktop {
+    display: none;
+  }
+
+  .support-pic {
+    height: 480px;
+    overflow: hidden;
+    width: 80%;
   }
 }
