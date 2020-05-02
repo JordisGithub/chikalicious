@@ -54,12 +54,6 @@ h3.menu-title {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .img-cont {
-    display: none;
-  }
-}
-
 /* =========================================================
         Testing Menu Code
 ========================================================= */
@@ -171,7 +165,7 @@ h3.menu-title {
   line-height: 2;
 }
 
-.beverage-menu-size-heading {
+.beverage-menu-size-heading-desktop {
   /* border: 2px purple solid; */
   width: 90%;
   display: grid;
@@ -180,7 +174,7 @@ h3.menu-title {
   margin-top: 50px;
 }
 
-.beverage-menu-size-heading h4 {
+.beverage-menu-size-heading-desktop h4 {
   /* border: 2px greenyellow solid; */
   text-align: end;
 
@@ -188,7 +182,7 @@ h3.menu-title {
 
   font-size: 12px;
 }
-.beverage-menu-size-heading h3 {
+.beverage-menu-size-heading-desktop h3 {
   /* border: 2px greenyellow solid; */
   text-align: center;
   font-family: WorkSans, sans-serif;
@@ -239,7 +233,95 @@ h3.menu-title {
 }
 
 .beverage-menu-container-div p {
+  /* border: 2px brown solid; */
   font-family: WorkSans, sans-serif;
   font-size: 1.1vw;
   line-height: 16pt;
+}
+
+.beverage-menu-size-heading-mobile {
+  display: none;
+}
+
+/* ====================================================
+      Media Queries
+===================================================== */
+
+@media (max-width: 768px) {
+  .menu-highlight-container,
+  .beverage-highlight-container {
+    border: #f3c26c 2.5px solid;
+    width: 80%;
+    height: 110px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .dessert-menu-container {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 3.5vw;
+  }
+
+  .beverage-menu-container {
+    /* border: 2px blue solid; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -25px;
+    /* padding-left: 2vw; */
+  }
+
+  .beverage-menu-left-section,
+  .beverage-menu-middle-section,
+  .beverage-menu-right-section {
+    /* border: 2px black solid; */
+    align-items: center;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+  }
+
+  .beverage-menu-container h3 {
+    /* border: 2px black solid; */
+    font-family: WorkSans, sans-serif;
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 1.42;
+    letter-spacing: normal;
+    margin-top: 10px;
+  }
+
+  .beverage-menu-container-glass-prices,
+  .beverage-menu-container-bottle-prices {
+    /* border: 2px red solid; */
+    font-family: WorkSans, sans-serif;
+    font-size: 2.5vw;
+    line-height: 17pt;
+    text-align: center;
+    padding-top: 4.8vh;
+  }
+
+  .beverage-menu-container-div p {
+    /* border: 2px brown solid; */
+    font-family: WorkSans, sans-serif;
+    font-size: 2.8vw;
+    line-height: 16pt;
+  }
+
+  .beverage-menu-size-heading-mobile {
+    /* border: 2px purple solid; */
+    width: 40%;
+    display: grid;
+    grid-template-columns: 22.5vw 7vw;
+    margin-left: 58%;
+    /* margin-top: 50px; */
+  }
+
+  .beverage-menu-size-heading-desktop {
+    border: 2px greenyellow solid;
+    display: none;
+  }
 }
