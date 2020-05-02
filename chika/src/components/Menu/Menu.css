@@ -1,5 +1,5 @@
 div.menu {
-  margin: 0 10%; 
+  margin: 0 10%;
   border-top: 3px dotted #f3c26c;
 }
 
@@ -25,7 +25,7 @@ div.title-line {
 } */
 
 div.menu-title-cont {
-  padding-top: 4%; 
+  padding-top: 4%;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -37,11 +37,12 @@ h3.menu-title {
   font-family: WorkSans;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
-  cursor: pointer; 
+  cursor: pointer;
   padding-bottom: 1.5%;
 }
 
-.menu-title:active, .menu-title:hover {
+.menu-title:active,
+.menu-title:hover {
   opacity: 1;
   color: black;
   border-bottom: 2px solid #f3c26c;
@@ -57,4 +58,182 @@ h3.menu-title {
   .img-cont {
     display: none;
   }
+}
+
+/* =========================================================
+        Testing Menu Code
+========================================================= */
+
+.menu-highlight-container {
+  border: #f3c26c 2.5px solid;
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.menu-highlight-heading {
+  /* border: red 3px solid; */
+  text-align: center;
+  font-family: WorkSans, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+.menu-highlight-heading2 {
+  text-align: center;
+  font-family: WorkSans, sans-serif;
+  /* border: blue 3px solid; */
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.menu-highlight-indent {
+  padding-left: 20px;
+  /* border: 1px solid green; */
+}
+
+.dessert-menu-container {
+  /* border: 2px blue solid; */
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 3.5vw 1fr 3.5vw 1fr 3vw;
+  grid-gap: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.dessert-menu-container div {
+  /* border: 2px red solid; */
+  align-items: right;
+  margin-bottom: 25px;
+}
+
+.dessert-menu-container h3 {
+  font-family: WorkSans, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.42;
+  letter-spacing: normal;
+}
+
+.dessert-menu-container h4 {
+  padding-top: 5px;
+  font-family: WorkSans, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: wider;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.dessert-menu-price p {
+  font-family: WorkSans, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* ====================================================
+      Dessert menu
+===================================================== */
+
+.beverage-highlight-container {
+  border: #f3c26c 2.5px solid;
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.beverage-highlight-heading {
+  text-align: center;
+  font-family: WorkSans, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+.beverage-highlight-heading2 {
+  text-align: center;
+  font-family: WorkSans, sans-serif;
+  /* border: blue 3px solid; */
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.beverage-menu-size-heading {
+  border: 2px purple solid;
+  width: 90%;
+  display: grid;
+  /* grid-template-columns: 1fr 5vw 1fr 5vw 1fr 5vw; */
+  grid-template-columns: 22vw 8vw 22vw 8vw 22vw 8vw;
+  margin: auto;
+  margin-top: 50px;
+  /* grid-gap: 40px; */
+}
+
+.beverage-menu-size-heading h4 {
+  border: 2px greenyellow solid;
+  text-align: end;
+}
+
+.beverage-menu-container {
+  border: 2px blue solid;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 0.8fr 3.5vw 7.9vw 0.8fr 3.5vw 7.9vw 0.8fr 3.5vw 7.9vw;
+  /* grid-gap: 10px; */
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.beverage-menu-container-div {
+  border: 2px red solid;
+  align-items: right;
+  margin-bottom: 25px;
+}
+
+.beverage-menu-container h3 {
+  font-family: WorkSans, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.42;
+  letter-spacing: normal;
+}
+
+.beverage-menu-container-glass-prices {
+  border: 2px pink solid;
+}
+
+.beverage-menu-container-bottle-prices {
+  border: 2px brown solid;
+}
+
+.dessert-menu-container h4 {
+  padding-top: 5px;
+  font-family: WorkSans, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: wider;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.dessert-menu-price p {
+  font-family: WorkSans, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }

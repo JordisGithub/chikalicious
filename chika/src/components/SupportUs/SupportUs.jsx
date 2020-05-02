@@ -9,24 +9,24 @@ const SupportUs = () => (
       <div className="line"></div>
     </div>
 
-    <div className="container-support" >
+    <div className="container-support">
       <div>
-        <p>
+        <div className="support-description">
           We ask for your help in this time of uncertainty. Please support our
           staff directly by donating to our GoFundMe link: <br />
           <br />
           Thank you!
-        </p>
+        </div>
         <a href="#">Staff GoFundMe </a>
       </div>
 
-      <div>
-        <p>
+      <div className="support-description-desktop">
+        <div>
           You can also purchase gift certificates, which help us support our
           staff and suppliers. <br />
           <br />
           Thank you!
-        </p>
+        </div>
         <a
           href="https://onelink.quickgifts.com/merchant/chikalicious/"
           target="_blank"
@@ -35,8 +35,23 @@ const SupportUs = () => (
         </a>
       </div>
 
-      <div>
+      <div className="support-pic">
         <img src={staff} alt="lady cooking dessert" />
+      </div>
+
+      <div className="support-description-mobile">
+        <div>
+          You can also purchase gift certificates, which help us support our
+          staff and suppliers. <br />
+          <br />
+          Thank you!
+        </div>
+        <a
+          href="https://onelink.quickgifts.com/merchant/chikalicious/"
+          target="_blank"
+        >
+          Gift Certificates
+        </a>
       </div>
     </div>
   </section>
