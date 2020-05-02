@@ -1,35 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
 
 
-div.review-containers  {
-  border-top: 3px dotted #f3c26c;
-  margin-left: 150px;
-  margin-right: 150px;
+img.frontquote {
+  width: 70px;
+  height: 50px;
+}
+
+img.backquote {
+  width: 61px;
+  height: 44px;
+  margin-top: 50%;
+}
+
+.whole-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 h2.reviewsTitle {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Cormorant", serif;
-  border-bottom: 1px solid #f3c26c;
   width: 154px;
-  height: 70px;
+  height: 58px;
+  font-family: Cormorant;
   font-size: 48px;
   font-weight: 500;
-  padding-bottom: 20px;
-  margin-top: 5%;
+  margin-bottom: 6%;
 }
 
-.reviews {
+div.review-line {
+  width: 154px;
+  border-bottom: solid 2px #f3c26c;
+}
+
+.review-containers {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-evenly;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: -25px;
-  height: 400px;
+}
+
+div.big-review {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 10% 0;
+}
+
+div.review-flex {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+}
+
+div.reviews {
+  display: grid;
+  grid-template-columns: 83px 380px 83px;
+  justify-items: center;
+}
+
+p.review-name, p.web {
+  text-align: left;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+p.review-detail {
+  font-size: 24px;
+  /* font-family: WorkSans; */
 }
 
 .scrollTop {
@@ -40,29 +79,48 @@ h2.reviewsTitle {
   font-size: 13px;
 }
 
-p.web {
-  font-size: 15px;
-  margin-left: 13%;
-  margin-top: 5%;
-}
-
 a.web, .web a:visited {
   color:blue;
 }
 
 @media (max-width: 768px) {
-  .review-container {
-    height: 600px;
+  .review-containers {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 400px;
+    width: 200px;
   }
 
-  .reviews {
+  .reviews p {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    margin: 10%;
+    font-size: 18px;
   }
 
   div.scrollTop { 
-    margin: 20% 0px;
+    margin: 10% 0px 5% 0px;
+    bottom: 0;
+  }
+
+  img.frontquote, img.backquote {
+    width: 43px;
+    height: 30px;
+  }
+
+  img.backquote {
+    margin-top: 80%;
+  }
+
+  .reviewsTitle h2 {
+    font-size: 40px;
+  }
+
+  p.review-name, p.web {
+    padding-top: 0;
+  }
+
+  div.review-line {
+    margin-bottom: 5%;
   }
 }

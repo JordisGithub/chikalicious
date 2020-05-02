@@ -12,6 +12,7 @@ const SupportUs = () => (
     </div>
 
     <div className="container-support">
+
       <div>
         <div className="support-description">
           We ask for your help in this time of uncertainty. Please support our
@@ -19,6 +20,7 @@ const SupportUs = () => (
           <br />
           Thank you!
         </div>
+
         <a href="#">Staff GoFundMe </a>
       </div>
 
@@ -29,12 +31,14 @@ const SupportUs = () => (
           <br />
           Thank you!
         </div>
+
         <a
           href="https://onelink.quickgifts.com/merchant/chikalicious/"
           target="_blank"
         >
           Gift Certificates
         </a>
+
       </div>
 
       <div className="support-pic">
