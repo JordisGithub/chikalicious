@@ -27,7 +27,6 @@ function HeroFoodPhotos(props) {
         <div className="instagram-photo-div6"></div>
         <div className="instagram-photo-div7"></div>
         <div className="instagram-photo-div8"></div>
-
       </div>
 
       <div className="bottom-text">
