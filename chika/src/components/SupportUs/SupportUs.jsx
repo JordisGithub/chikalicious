@@ -4,6 +4,8 @@ import staff from "../../images/ChikaliciousStaff.png";
 
 const SupportUs = () => (
   <section className="support-us" id="support">
+    <div className="supportus-dotted-divider"></div>
+
     <div className="heading">
       <h2>Support Us</h2>
       <div className="line"></div>
