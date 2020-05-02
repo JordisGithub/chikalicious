@@ -21,7 +21,7 @@
 }
 
 p.insta {
- text-align: center;
+  text-align: center;
 }
 
 .instagram-photo-grid-container {
@@ -60,8 +60,8 @@ p.insta {
 
   position: relative;
   overflow: hidden;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
 }
 
 .instagram-photo-div:hover,

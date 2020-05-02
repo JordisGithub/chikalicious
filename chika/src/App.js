@@ -44,9 +44,9 @@ class App extends Component {
         <HeroFoodPhotos />
         <Menu />
         <OurStory />
-        <PhotoGallery />
         <SupportUs />
         <Contact />
+        <PhotoGallery />
         <Reviews />
         <Footer />
       </>
