@@ -41,11 +41,14 @@ export default class Nav extends Component {
             </ul>
           </div>
         </div>
+        <div className="covid-mobile">
+        <i class="fas fa-info-circle"></i>
         <p className="covidInfo">
-          <i class="fas fa-info-circle"></i>We are still accepting onlines for
-          pickup and delivery. Please consider supporting our staff by donating
-          to our GoFundMe page during these unprecedented time.
+            We are still accepting onlines for
+            pickup and delivery. Please consider supporting our staff by donating
+            to our GoFundMe page during these unprecedented time.
         </p>
+        </div>
       </>
     );
   }
