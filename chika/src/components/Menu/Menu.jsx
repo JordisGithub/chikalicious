@@ -147,7 +147,7 @@ export default class Menu extends Component {
               </div>
 
               <div>
-                <h3>Coconut Marshmellow</h3>
+                <h3>Coconut Marshmallow</h3>
                 <h4>Packaged to go</h4>
               </div>
               <div className="dessert-menu-price">
