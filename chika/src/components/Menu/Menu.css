@@ -25,6 +25,7 @@ div.title-line {
 } */
 
 div.menu-title-cont {
+  margin-bottom: 3.5%;
   padding-top: 4%;
   display: flex;
   flex-flow: row nowrap;
