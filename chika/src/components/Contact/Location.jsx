@@ -31,7 +31,7 @@ class Location extends Component {
               </section>
               <section className="hours-container">
                 <h4 className="heading-location">Hours</h4>
-                <p className="info-location">Wednesday - Sunday</p>
+                <p className="info-location" style={{width: "165px"}}>Wednesday - Sunday</p>
                 <p className="info-location">pm to 10pm</p>
                 <a className="take-out" href="#">FOR TAKEOUT ONLY</a>
               </section>
