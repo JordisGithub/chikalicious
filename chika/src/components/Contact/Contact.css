@@ -80,8 +80,15 @@ a.take-out{
   color: black;
 }
 
+.contact-svg {
+  height: 32px;
+  padding: 1%;
+  margin: 0 5% 0 0;
+}
+
 p.info-location {
   width: 100%;
+  line-height: 4vh;
 }
 
 .reservation{
