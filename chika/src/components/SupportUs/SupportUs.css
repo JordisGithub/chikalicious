@@ -110,6 +110,17 @@
     width: 80%;
     /* border: solid red 2pt; */
   }
+  span.arrow {
+    display: none;
+  }
+  .mobile-gift{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: -40px;
+
+  }
 }
 /* ==================================
     Iphone queries
@@ -149,5 +160,16 @@
     height: 280px;
     overflow: hidden;
     width: 100%;
+  }
+  span.arrow {
+    display: none;
+  }
+  .mobile-gift{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: -40px;
+
   }
 }

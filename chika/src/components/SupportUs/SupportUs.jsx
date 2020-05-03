@@ -17,13 +17,14 @@ const SupportUs = () => (
           Thank you!
         </div>
         <div className="staff-gofundme-link">
-          <a href="#">Staff GoFundMe </a>
+          <a href="#">Staff GoFundMe</a>
           <span
+            className="arrow"
             style={{
               textDecoration: "none",
               color: "#ffe5b9",
               fontSize: "24px",
-              marginRight: "2px",
+              marginRight: "2px"
             }}
           >
             >
@@ -37,7 +38,7 @@ const SupportUs = () => (
           <br />
           Thank you!
         </div>
-        <div div className="gift-certificate-link">
+        <div className="gift-certificate-link">
           <a
             href="https://onelink.quickgifts.com/merchant/chikalicious/"
             target="_blank"
@@ -45,11 +46,12 @@ const SupportUs = () => (
             Gift Certificates
           </a>
           <span
+            className="arrow"
             style={{
               textDecoration: "none",
               color: "#ffe5b9",
               fontSize: "24px",
-              marginRight: "2px",
+              marginRight: "2px"
             }}
           >
             >
@@ -67,23 +69,26 @@ const SupportUs = () => (
           <br />
           Thank you! <br />
         </div>
-        <a
-          href="https://onelink.quickgifts.com/merchant/chikalicious/"
-          target="_blank"
-        >
-          <br />
-          Gift Certificates
-        </a>
-        <span
-          style={{
-            textDecoration: "none",
-            color: "#ffe5b9",
-            fontSize: "24px",
-            marginRight: "2px",
-          }}
-        >
+        <div className="gift-certificate-link mobile-gift">
+          <a
+            href="https://onelink.quickgifts.com/merchant/chikalicious/"
+            target="_blank"
           >
-        </span>
+            <br />
+            Gift Certificates
+          </a>
+          <span
+            className="arrow"
+            style={{
+              textDecoration: "none",
+              color: "#ffe5b9",
+              fontSize: "24px",
+              marginRight: "2px"
+            }}
+          >
+            >
+          </span>
+        </div>
       </div>
     </div>
   </section>
