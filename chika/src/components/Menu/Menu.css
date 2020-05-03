@@ -61,7 +61,7 @@ h3.menu-title {
 
 .menu-highlight-container {
   border: #f3c26c 2.5px solid;
-  width: 60%;
+  width: 65%;
   height: 100px;
   margin: 0 auto;
   padding-top: 20px;
@@ -72,7 +72,7 @@ h3.menu-title {
   /* border: red 3px solid; */
   text-align: center;
   font-family: WorkSans, sans-serif;
-  font-size: 12pt;
+  font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -327,5 +327,25 @@ h3.menu-title {
   .beverage-menu-size-heading-desktop {
     border: 2px greenyellow solid;
     display: none;
+  }
+
+  .menu-highlight-heading {
+    /* border: red 3px solid; */
+    text-align: center;
+    font-family: WorkSans, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+  }
+
+  .menu-highlight-heading2 {
+    text-align: center;
+    font-family: WorkSans, sans-serif;
+    /* border: blue 3px solid; */
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 2;
   }
 }
