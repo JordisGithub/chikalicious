@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap");
 
 .contact-container {
   display: flex;
@@ -11,7 +10,8 @@
   height: 560px;
 }
 
-h2.loco, .contactTitle h2{
+h2.loco,
+.contactTitle h2 {
   height: 60px;
   width: 340px;
   font-family: Cormorant;
@@ -19,62 +19,58 @@ h2.loco, .contactTitle h2{
   font-weight: 500;
 }
 
-
-
-h2.cont{
-  
+h2.cont {
   padding-bottom: 15px;
 }
 .cont-line {
-    border-bottom: 2px solid #f3c26c;
-    width: 60%;
-    margin-bottom: 13%;
-    margin-top: 4%;
+  border-bottom: 2px solid #f3c26c;
+  width: 60%;
+  margin-bottom: 13%;
+  margin-top: 4%;
 }
 
 .mock-container {
   display: flex;
   align-items: center;
-  
 }
-.map-img{
+.map-img {
   margin-right: 10%;
 }
 
-h2.loco, h2.cont {
+h2.loco,
+h2.cont {
   margin-top: 0;
 }
-.social h4{
+.social h4 {
   margin-top: 4%;
 }
 
-.location-container, .social-container{
+.location-container,
+.social-container {
   display: flex;
   flex-direction: column;
   margin: 2% 5%;
 }
-.transportation{
+.transportation {
   align-self: flex-start;
-  
 }
-.heading-location{
-  font-family: 'Work Sans', sans-serif;
+.heading-location {
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1.8em;
   line-height: 2.3;
 }
-.info-location{
-  font-family: 'Work Sans', sans-serif;
+.info-location {
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
-
 }
-.trains-container{
+.trains-container {
   margin-top: -10%;
   padding-bottom: 49%;
 }
-a.take-out{
-  font-family: 'Work Sans', sans-serif;
+a.take-out {
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-decoration: none;
   color: black;
@@ -91,10 +87,9 @@ p.info-location {
   line-height: 4vh;
 }
 
-.reservation{
+.reservation {
   padding-top: 30%;
 }
-
 
 @media (max-width: 768px) {
   .contact-container {
@@ -102,16 +97,28 @@ p.info-location {
     justify-content: center;
     align-items: center;
   }
-  .mock-container{
+  .mock-container {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-  .trains-container{
+  .trains-container {
     margin-top: 0;
     padding-bottom: 0;
   }
-  .reservation{
+  .reservation {
     padding-top: 0;
   }
- 
+  .social-container {
+    width: 70%;
+  }
+  
+  .map-img img{
+    margin-top: 8%;
+  }
+}
+@media (max-width: 550px) {
+  h2.cont,
+  .cont-line {
+    display: none;
+  }
 }

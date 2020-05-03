@@ -71,6 +71,13 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  .our-story h2{
+    font-size: 2.2em;
+  }
+  .line{
+    width: 25%;
+    margin-bottom: 5%;
+  }
   .story-two {
     width: 70%;
   }
@@ -78,7 +85,7 @@
     width: 70%;
   }
   .title h5 {
-    text-align: center;
+    text-align: left;
     padding-top: 10%;
   }
   .mission {
@@ -95,5 +102,9 @@
   .story-two img {
     width: 343px;
     height: 256px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 7%;
+     
   }
 }
