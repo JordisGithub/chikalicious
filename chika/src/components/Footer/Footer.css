@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap");
 
 .footer-container {
   display: flex;
@@ -26,8 +26,8 @@
 }
 
 .terms p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: .8rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
   text-align: center;
   margin-top: 0.8rem;
 }
@@ -39,4 +39,11 @@ span.termsLine {
 
 .svg-links a {
   cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .footer-container {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
