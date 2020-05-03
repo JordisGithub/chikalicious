@@ -1,4 +1,5 @@
 .hero-photo-grid-container {
+  /* outline: red solid 2px; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 90%;
   display: grid;
@@ -12,8 +13,8 @@
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  /* outline: red solid 2px; */
   vertical-align: auto;
+  justify-items: center;
   /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
   /* test */
 }
@@ -24,8 +25,8 @@
 .hero-photo-div4 {
   display: grid;
   /* width: 95%; */
-  width: 240px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
   overflow: hidden;
   background-position: center;
   background-size: 95%;
@@ -64,9 +65,7 @@ span.photo-Title {
   display: inline-block;
   display: grid;
   text-align: center;
-  width: 240px;
-  /* margin: 10px 0 20px; */
-  /* border: 2px solid red; */
+  width: 400px;
 }
 
 /* @media (max-width: 1190px) {
