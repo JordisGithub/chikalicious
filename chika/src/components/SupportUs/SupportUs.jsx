@@ -8,7 +8,7 @@ const SupportUs = () => (
 
     <div className="heading">
       <h2>Support Us</h2>
-      <div className="line"></div>
+      <div className="supline"></div>
     </div>
 
     <div className="container-support">
