@@ -38,13 +38,22 @@
   margin: auto;
 }
 
+
+.support-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.support-descriptionn {
+  margin-bottom: 39px;
+}
+
 .support-description,
 .support-description-mobile,
 .support-description-desktop {
   font-family: WorkSans, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 100px;
 }
 
 .container-support a {
