@@ -1,88 +1,78 @@
 /* ======================================
           Title & lines on top
 ====================================== */
-
 .supportus-dotted-divider {
   margin: 0 10%;
   border-top: 3px dotted #f3c26c;
 }
-
 .heading h2 {
   font-family: cormorant;
-  font-size: 48px;
-  width: 215px;
-  font-weight: 500;
+  font-size: 2.8rem;
   margin: 50px auto 0;
   text-align: center;
-  margin-bottom: 2%;
+  vertical-align: middle;
+  line-height: 60px;
 }
-
-.supline {
-  border-top: 3px solid #f3c26c;
-  width: 215px;
-  padding-top: 2%;
+.line {
+  border-top: 1px solid #f3c26c;
+  width: 150px;
   margin: auto;
-  margin-bottom: 8vh;
+  margin-bottom: 7vh;
 }
-
 /* ======================================
           support us three sections
 ====================================== */
-
 .container-support {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
   width: 80%;
   grid-gap: 6rem;
   padding: 0;
   margin: auto;
+  /* border: #f3c26c solid 4pt; */
 }
-
-
-.support-description {
-  margin-bottom: 35px;
-  font-size: 16px;
-}
-
-.support-descriptionn {
-  margin-bottom: 35px;
-}
-
 .support-description,
-.support-description-mobile,
-.support-description-desktop {
-  font-family: WorkSans, sans-serif;
+.support-description-mobile {
+  /* font-family: WorkSans, sans-serif; */
+  height: 200px;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 20pt;
+  margin-top: 60pt;
+  /* border: red solid 4pt; */
 }
-
+/* .support-description-desktop {
+  border: green solid 1pt;
+} */
 .container-support a {
+  /* border: blue solid 4pt; */
   font-family: WorkSans, sans-serif;
-  font-size: 16px;
-  width: 372px;
-  color: blue;
-}
-
-.container-support img {
-  margin: auto;
+  font-size: 24px;
+  font-weight: 300;
+  /* width: 372px; */
+  /* position: absolute;
   position: relative;
+  top: 0.3em; */
+  /* margin-bottom: 100pt; */
+}
+.container-support img {
+  /* margin: auto; */
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%;
+  /* border: green solid 4pt; */
+}
+.support-pic {
   overflow: hidden;
   width: 100%;
 }
-
-.support-pic {
-  overflow: hidden;
-  width: 80%;
-}
-
 .support-description-mobile {
   display: none;
 }
-
 /* ======================================
           Mobile Version
 ====================================== */
-
 @media (max-width: 768px) {
   .container-support {
     justify-items: center;
@@ -90,7 +80,6 @@
     grid-template-columns: 1fr;
     margin: auto;
   }
-
   .support-description,
   .support-description-mobile,
   .support-description-desktop {
@@ -99,25 +88,66 @@
     line-height: 30px;
     margin-bottom: 40px;
   }
-
   .container-support a {
+    /* border: solid 3pt red; */
     font-family: WorkSans, sans-serif;
     font-size: 22px;
-    width: 372px;
+    /* width: 372px; */
     color: blue;
+    margin-left: 0;
+    width: 100%;
+    margin-top: -10px;
   }
-
   .support-description-mobile {
     display: contents;
   }
-
   .support-description-desktop {
     display: none;
   }
-
   .support-pic {
     height: 480px;
     overflow: hidden;
     width: 80%;
+    /* border: solid red 2pt; */
+  }
+}
+/* ==================================
+    Iphone queries
+================================== */
+@media (max-width: 400px) {
+  .container-support {
+    justify-items: center;
+    width: 80%;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .support-description,
+  .support-description-mobile,
+  .support-description-desktop {
+    font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+  }
+  .container-support a {
+    font-family: WorkSans, sans-serif;
+    font-size: 22px;
+    /* width: 372px; */
+    color: blue;
+    margin-left: 0;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .support-description-mobile {
+    display: contents;
+  }
+  .support-description-desktop {
+    display: none;
+  }
+  .support-pic {
+    height: 280px;
+    overflow: hidden;
+    width: 100%;
   }
 }
