@@ -64,13 +64,14 @@ h3.menu-title {
   height: 100px;
   margin: 0 auto;
   padding-top: 20px;
+  margin-top: 50px;
 }
 
 .menu-highlight-heading {
   /* border: red 3px solid; */
   text-align: center;
   font-family: WorkSans, sans-serif;
-  font-size: 18px;
+  font-size: 12pt;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -144,6 +145,7 @@ h3.menu-title {
   height: 100px;
   margin: 0 auto;
   padding-top: 20px;
+  margin-top: 50px;
 }
 
 .beverage-highlight-heading {
@@ -229,14 +231,15 @@ h3.menu-title {
   font-size: 0.85vw;
   line-height: 17pt;
   text-align: center;
-  padding-top: 4.8vh;
+  line-height: 1.5vw;
+  margin-top: 2.5vw;
 }
 
 .beverage-menu-container-div p {
   /* border: 2px brown solid; */
   font-family: WorkSans, sans-serif;
   font-size: 1.1vw;
-  line-height: 16pt;
+  line-height: 1.5vw;
 }
 
 .beverage-menu-size-heading-mobile {
