@@ -17,7 +17,6 @@ h2.loco, .contactTitle h2{
   font-family: Cormorant;
   font-size: 48px;
   font-weight: 500;
- 
 }
 
 
@@ -27,9 +26,9 @@ h2.cont{
   padding-bottom: 15px;
 }
 .cont-line {
-    border-bottom: 1px solid #f3c26c;
+    border-bottom: 2px solid #f3c26c;
     width: 60%;
-    margin-bottom: 12%;
+    margin-bottom: 13%;
     margin-top: 4%;
 }
 
@@ -44,6 +43,9 @@ h2.cont{
 
 h2.loco, h2.cont {
   margin-top: 0;
+}
+.social h4{
+  margin-top: 4%;
 }
 
 .location-container, .social-container{
@@ -78,10 +80,22 @@ a.take-out{
   color: black;
 }
 
+.contact-svg {
+  height: 32px;
+  padding: 1%;
+  margin: 0 5% 0 0;
+}
+
+p.info-location {
+  width: 100%;
+  line-height: 4vh;
+}
 
 .reservation{
   padding-top: 30%;
 }
+
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;

@@ -25,6 +25,7 @@ class Social extends Component {
                 target="_blank"
               >
                 <svg
+                  className="contact-svg"
                   width="22"
                   height="22"
                   viewBox="0 0 22 22"
@@ -45,6 +46,7 @@ class Social extends Component {
                 target="_blank"
               >
                 <svg
+                  className="contact-svg"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
@@ -79,6 +81,7 @@ class Social extends Component {
                 target="_blank"
               >
                 <svg
+                  className="contact-svg"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"

@@ -84,4 +84,16 @@
   .mission {
     padding-top: 0;
   }
+
+  p.mission {
+    width: 343px;
+    height: 132px;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .story-two img {
+    width: 343px;
+    height: 256px;
+  }
 }

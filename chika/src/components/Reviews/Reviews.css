@@ -68,6 +68,7 @@ p.review-name, p.web {
 
 p.review-detail {
   font-size: 24px;
+  height: 140px;
   /* font-family: WorkSans; */
 }
 
@@ -88,7 +89,7 @@ a.web, .web a:visited {
     display: flex;
     flex-flow: column nowrap;
     height: 400px;
-    width: 200px;
+    width: 180px;
   }
 
   .reviews p {
