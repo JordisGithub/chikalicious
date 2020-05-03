@@ -200,7 +200,7 @@ export default class Menu extends Component {
               <h1 className="beverage-highlight-heading">
                 Today's Sparkling House Cocktail
               </h1>
-              <h2 className="beverage-highlight-heading2">Peach-Blackberry</h2>
+              <h2 className="beverage-highlight-heading2">Peach-Blackberry $12</h2>
             </div>
 
             <div className="beverage-menu-size-heading-desktop">
