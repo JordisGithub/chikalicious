@@ -25,6 +25,7 @@ div.title-line {
 } */
 
 div.menu-title-cont {
+  margin-bottom: 3.5%;
   padding-top: 4%;
   display: flex;
   flex-flow: row nowrap;
@@ -217,7 +218,7 @@ h3.menu-title {
 .beverage-menu-container h3 {
   /* border: 2px black solid; */
   font-family: WorkSans, sans-serif;
-  font-size: 1.5vw;
+  font-size: 16px;
   font-weight: 800;
   line-height: 1.42;
   letter-spacing: normal;

@@ -26,14 +26,14 @@ class Location extends Component {
                 <p className="info-location">203 E. 10th St.</p>
                 <p className="info-location">between 1st Ave. & 2nd Ave.</p>
                 <div className="train-icons">
-                  <img style={{width: "80px", height: "25px"}} src={Train} alt="trains"/>
+                  <img style={{width: "90px", height: "30px"}} src={Train} alt="trains"/>
                 </div>
               </section>
               <section className="hours-container">
                 <h4 className="heading-location">Hours</h4>
-                <p className="info-location">Wednesday - Sunday</p>
+                <p className="info-location" style={{width: "165px"}}>Wednesday - Sunday</p>
                 <p className="info-location">pm to 10pm</p>
-                <a className="take-out" href="#">FOR TAKEOUT ONLY</a>
+                <a className="take-out" href="https://www.chikalicious.com/menu.htm" target="_blank">FOR TAKEOUT ONLY</a>
               </section>
             </div>
           </div>

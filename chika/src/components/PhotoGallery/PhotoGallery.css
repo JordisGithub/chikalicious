@@ -7,16 +7,17 @@
 
 .instagram-grid-title {
   font-family: cormorant;
-  font-size: 42px;
+  font-size: 48px;
   margin: 30px auto 0;
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
+  width: 262px;
 }
 
 .instagram-grid-line {
   border-top: 3px solid #f3c26c;
-  width: 22%;
+  width: 262px;
   margin: auto;
 }
 

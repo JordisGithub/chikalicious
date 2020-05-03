@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Work+Sans:400,600,700&display=swap");
 
 img.frontquote {
   width: 70px;
@@ -37,6 +36,8 @@ div.review-line {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 div.big-review {
@@ -60,7 +61,8 @@ div.reviews {
   justify-items: center;
 }
 
-p.review-name, p.web {
+p.review-name,
+p.web {
   text-align: left;
   padding-left: 15%;
   padding-top: 5%;
@@ -68,6 +70,7 @@ p.review-name, p.web {
 
 p.review-detail {
   font-size: 24px;
+  height: 140px;
   /* font-family: WorkSans; */
 }
 
@@ -79,16 +82,16 @@ p.review-detail {
   font-size: 13px;
 }
 
-a.web, .web a:visited {
-  color:blue;
+a.web,
+.web a:visited {
+  color: blue;
 }
 
 @media (max-width: 768px) {
   .review-containers {
     display: flex;
     flex-flow: column nowrap;
-    height: 400px;
-    width: 200px;
+    width: 90%;
   }
 
   .reviews p {
@@ -98,12 +101,13 @@ a.web, .web a:visited {
     font-size: 18px;
   }
 
-  div.scrollTop { 
+  div.scrollTop {
     margin: 10% 0px 5% 0px;
     bottom: 0;
   }
 
-  img.frontquote, img.backquote {
+  img.frontquote,
+  img.backquote {
     width: 43px;
     height: 30px;
   }
@@ -116,11 +120,18 @@ a.web, .web a:visited {
     font-size: 40px;
   }
 
-  p.review-name, p.web {
+  p.review-name,
+  p.web {
     padding-top: 0;
   }
 
   div.review-line {
     margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 400px) {
+  div.reviews {
+    grid-template-columns: 30px 280px 30px;
   }
 }
