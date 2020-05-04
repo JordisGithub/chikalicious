@@ -101,6 +101,7 @@ i {
   .container-nav {
     position: fixed;
     z-index: 400;
+    
   }
   .covid-mobile {
     text-align: center;

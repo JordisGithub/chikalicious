@@ -15,12 +15,12 @@ const MobileNav = props => {
       </div> */}
       <div className="nav-M">
         <ul>
-          <li className="linksM"><a href="#menu">Menu</a></li>
-          <li className="linksM"><a href="#story">Our Story</a></li>
-          <li className="linksM"><a href="#support">Support Us</a></li>
-          <li className="linksM"><a href="#location">Location & Hours</a></li>
-          <li className="linksM"><a href="#contact">Contact Us</a></li>
-          <li className="linksM"><a href="#photo">Photo Gallery</a></li>
+          <li className="linksM"><a href="#menu" onClick={props.click}>Menu</a></li>
+          <li className="linksM"><a href="#story" onClick={props.click}>Our Story</a></li>
+          <li className="linksM"><a href="#support" onClick={props.click}>Support Us</a></li>
+          <li className="linksM"><a href="#location" onClick={props.click}>Location & Hours</a></li>
+          <li className="linksM"><a href="#contact" onClick={props.click}>Contact Us</a></li>
+          <li className="linksM"><a href="#photo" onClick={props.click}>Photo Gallery</a></li>
         </ul>
       </div>
     </div>
