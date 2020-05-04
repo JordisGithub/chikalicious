@@ -84,8 +84,8 @@ function Reviews(props) {
               backgroundColor: "transparent",
               color: "#f3c26c",
             }}
-          />
-          <p>Back to Top</p>
+            ></ScrollUpButton>
+            <p>Back to Top</p>
         </div>
       </div>
     </>
