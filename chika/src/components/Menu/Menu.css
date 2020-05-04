@@ -50,6 +50,17 @@ h3.menu-title {
   font-weight: bold;
 }
 
+.active-menu {
+  padding-bottom: 1.5%;
+  font-size: 30px;
+  font-family: WorkSans;
+  font-weight: 500;
+  opacity: 1;
+  color: black;
+  border-bottom: 2px solid #f3c26c;
+  font-weight: bold;
+}
+
 .img-cont {
   display: block;
   margin: 0 auto;
