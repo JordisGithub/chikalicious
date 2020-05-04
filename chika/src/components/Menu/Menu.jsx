@@ -60,10 +60,10 @@ export default class Menu extends Component {
           <div className="menu-line"></div>
         </div>
         <div className="menu-title-cont">
-          <h3 className="menu-title" onClick={this.handleDessert}>
+          <h3 className={this.state.dessertMenu ? "active-menu" : "menu-title"} onClick={this.handleDessert}>
             Desserts
           </h3>
-          <h3 className="menu-title" onClick={this.handleBeverage}>
+          <h3 className={this.state.beverageMenu ? "active-menu" : "menu-title"} onClick={this.handleBeverage}>
             Beverage
           </h3>
         </div>
