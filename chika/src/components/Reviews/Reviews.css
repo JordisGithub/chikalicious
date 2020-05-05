@@ -22,9 +22,9 @@ h2.reviewsTitle {
   width: 154px;
   height: 58px;
   font-family: Cormorant;
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 500;
-  margin-bottom: 6%;
+  margin-bottom: 1.2rem;
 }
 
 div.review-line {

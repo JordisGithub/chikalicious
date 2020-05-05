@@ -6,7 +6,7 @@ const SupportUs = () => (
     <div className="supportus-dotted-divider"></div>
     <div className="heading">
       <h2>Support Us</h2>
-      <div className="line"></div>
+      <div className="support-line"></div>
     </div>
     <div className="container-support">
       <div>
