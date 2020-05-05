@@ -7,7 +7,7 @@
   font-weight: 600;
   width: 70%;
   max-width: 400px;
-  height: 80%;
+  height: 100%;
   list-style: none;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   z-index: 200;
@@ -35,12 +35,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 .mobile-container li {
-  margin: 0.5rem 0;
   border-bottom: 3px dotted #f3c26c;
   line-height: 50px;
   padding-left: 30px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .mobile-container a,
@@ -53,7 +55,7 @@
   .mobile-container {
     display: none;
   }
-  .toggle-button{
+  .toggle-button {
     display: none;
   }
 }
