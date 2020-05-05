@@ -10,23 +10,38 @@
   height: 560px;
 }
 
-h2.loco,
-.contactTitle h2 {
-  height: 60px;
-  width: 340px;
+h2.loco {
+  /* height: 60px; */
+  /* width: 340px; */
   font-family: Cormorant;
   font-size: 48px;
   font-weight: 500;
+  padding-bottom: 1.2rem;
 }
 
 h2.cont {
-  padding-bottom: 15px;
+  /* height: 60px;
+  width: 340px; */
+  font-family: Cormorant;
+  font-size: 48px;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
 }
-.cont-line {
+
+
+/* h2.cont {
+  padding-bottom: 15px;
+} */
+div.cont-line {
   border-bottom: 2px solid #f3c26c;
-  width: 60%;
+  width: 213px;
   margin-bottom: 13%;
   /* margin-top: 4%; */
+}
+
+div.cont-line-loco {
+  border-bottom: 2px solid #f3c26c;
+  width: 340px;
 }
 
 .mock-container {
