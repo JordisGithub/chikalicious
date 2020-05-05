@@ -38,10 +38,11 @@
   
 }
 .mobile-container li {
-  margin: 0.5rem 0;
   border-bottom: 3px dotted #f3c26c;
   line-height: 50px;
   padding-left: 30px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .mobile-container a,
