@@ -28,7 +28,6 @@ h2.cont {
   padding-bottom: 1.2rem;
 }
 
-
 /* h2.cont {
   padding-bottom: 15px;
 } */
@@ -46,7 +45,8 @@ div.cont-line-loco {
 
 .mock-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  padding-top: 12%;
 }
 .map-img {
   margin-right: 10%;
@@ -66,9 +66,9 @@ h2.cont {
   flex-direction: column;
   margin: 2% 5%;
 }
-.transportation {
-  align-self: flex-start;
-}
+/* .transportation {
+ 
+} */
 .heading-location {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
@@ -82,7 +82,7 @@ h2.cont {
 }
 .trains-container {
   margin-top: -10%;
-  padding-bottom: 49%;
+  padding-bottom: 20%;
 }
 a.take-out {
   font-family: "Work Sans", sans-serif;
@@ -100,10 +100,11 @@ a.take-out {
 p.info-location {
   width: 100%;
   line-height: 4vh;
+  width: 300px;
 }
 
 .reservation {
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 @media (max-width: 768px) {
@@ -123,11 +124,14 @@ p.info-location {
   .reservation {
     padding-top: 0;
   }
-  .social-container {
-    width: 70%;
+  .social-container,
+  .transportation {
+    width: 85%;
   }
-  
-  .map-img img{
+  .social-container {
+    height: 400px;
+  }
+  .map-img img {
     margin-top: 8%;
   }
 }
