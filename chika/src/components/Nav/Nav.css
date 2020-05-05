@@ -35,10 +35,12 @@
   font-weight: 600;
   color: white;
   padding: 0 3rem;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .links a:hover {
   color: white;
+  font-weight: 800;
 }
 .covid-mobile {
   background-color: #ffe5b9;

@@ -6,10 +6,6 @@
   justify-content: center;
 }
 
-.social-container {
-  height: 560px;
-}
-
 h2.loco,
 .contactTitle h2 {
   height: 60px;
@@ -108,11 +104,12 @@ p.info-location {
   .reservation {
     padding-top: 0;
   }
-  .social-container {
-    width: 70%;
+  .social-container,
+  .transportation {
+    width: 85%;
   }
-  
-  .map-img img{
+
+  .map-img img {
     margin-top: 8%;
   }
 }
