@@ -81,10 +81,11 @@ a.take-out {
 p.info-location {
   width: 100%;
   line-height: 4vh;
+  width: 300px;
 }
 
 .reservation {
-  padding-top: 30%;
+  padding-top: 35%;
 }
 
 @media (max-width: 768px) {
