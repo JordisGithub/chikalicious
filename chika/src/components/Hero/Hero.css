@@ -18,23 +18,19 @@
 }
 
 .hero-button {
-  font-family: WorkSans;
-  /* padding: 3% 5%; */
+  font-family: 'Work Sans', sans-serif;
   border-radius: 10px;
-  font-weight: 800;
+  font-weight: 600;
   background-color: #f3c26c;
   width: 14vw;
   height: 8vh;
   margin-top: 5vh;
   font-size: 1.3em;
-  /* display: grid; */
-  /* position: relative; */
-  /* grid-column: 1 / span 1; */
-  /* grid-row: 6 / span 3; */
 }
 
 .hero-button a {
-  font-weight: 800;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
   color: black;
   background-color: #f3c26c;
   text-decoration: none;
