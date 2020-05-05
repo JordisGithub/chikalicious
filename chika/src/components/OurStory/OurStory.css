@@ -52,8 +52,10 @@
 }
 .title p {
   font-family: "Work Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   padding-bottom: 5%;
+  line-height: 1.5;
+  margin-bottom: 3.3%;
 }
 .title img {
   max-width: 100%;
@@ -71,13 +73,10 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-  .our-story h2{
+  .our-story h2 {
     font-size: 2.2em;
   }
-  /* .line {
-    width: 25%;
-    margin-bottom: 5%;
-  } */
+  
   .story-two {
     width: 70%;
   }
@@ -105,6 +104,5 @@
     object-fit: cover;
     object-position: top;
     margin-top: 7%;
-     
   }
 }
