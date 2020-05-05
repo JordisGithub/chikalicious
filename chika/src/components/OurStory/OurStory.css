@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 }
-
 .border {
   border-top: 3px dotted #f3c26c;
   width: 85%;
@@ -73,8 +72,18 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-
-.story-two{
+  /* Media Queries for mobile */
+  /* .our-story h2{
+    font-size: 2.2em;
+  }
+  .story-line {
+    width: 130px;
+  } */
+  /* .line {
+    width: 25%;
+    margin-bottom: 5%;
+  } */
+  .story-two {
     width: 70%;
   }
   .title {
@@ -87,14 +96,12 @@
   .mission {
     padding-top: 0;
   }
-
   p.mission {
     width: 343px;
     height: 132px;
     font-size: 22px;
     font-weight: 300;
   }
-
   .story-two img {
     width: 343px;
     height: 256px;
