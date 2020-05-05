@@ -5,25 +5,14 @@ function HeroFoodPhotos(props) {
   return (
     <>
       <div className="hero-photo-grid-container">
-        <div>
-          <div className="hero-photo-div"></div>
-          <span className="photo-Title">Prix Fix</span>
-        </div>
-
-        <div>
-          <div className="hero-photo-div2"></div>
-          <span className="photo-Title">Prix Fix Coffee</span>
-        </div>
-
-        <div>
-          <div className="hero-photo-div3"></div>
-          <span className="photo-Title">Prix Fix Tea</span>
-        </div>
-
-        <div>
-          <div className="hero-photo-div4"></div>
-          <span className="photo-Title">Prix Fix Wine</span>
-        </div>
+        <div className="hero-photo-div"></div>
+        <div className="hero-photo-div2"></div>
+        <div className="hero-photo-div3"></div>
+        <div className="hero-photo-div4"></div>
+        <span className="photo-Title">Prix Fixe</span>
+        <span className="photo-Title">Prix Fixe with Coffee</span>
+        <span className="photo-Title">Prix Fixe with Tea</span>
+        <span className="photo-Title">Prix Fixe with Wine</span>
       </div>
     </>
   );
