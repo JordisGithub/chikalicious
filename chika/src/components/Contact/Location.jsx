@@ -13,7 +13,7 @@ class Location extends Component {
         <div className="location-container">
           <div className="locationTitle">
             <h2 className="loco">Location & Hours</h2>
-            <div className="cont-line"></div>
+            <div className="cont-line-loco"></div>
           </div>
           <div>
             <div className="mock-container">
