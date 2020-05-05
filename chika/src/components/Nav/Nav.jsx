@@ -44,7 +44,7 @@ export default class Nav extends Component {
         <div className="covid-mobile">
         <i class="fas fa-info-circle"></i>
         <p className="covidInfo">
-            We are still accepting onlines for
+            We are still accepting online orders for
             pickup and delivery. Please consider supporting our staff by donating
             to our GoFundMe page during these unprecedented time.
         </p>
