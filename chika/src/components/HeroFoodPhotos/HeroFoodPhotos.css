@@ -1,22 +1,21 @@
 .hero-photo-grid-container {
   /* outline: red solid 2px; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 320px 50px;
   width: 90%;
   display: grid;
   grid-gap: 1rem;
   padding: 0;
   align-items: center;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   vertical-align: auto;
   justify-items: center;
-  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
-  /* test */
+  margin-top: 30px;
 }
 
 .hero-photo-div,
@@ -24,16 +23,17 @@
 .hero-photo-div3,
 .hero-photo-div4 {
   display: grid;
-  /* width: 95%; */
+  /* width: 35%; */
   width: 400px;
-  height: 200px;
+  height: 300px;
+  /* height: 200px; */
   overflow: hidden;
   background-position: center;
-  background-size: 95%;
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: auto;
   display: inline-block;
-  /* position: relative; */
+  position: relative;
   /* border: 2px solid red; */
 }
 
@@ -58,30 +58,57 @@
 }
 
 span.photo-Title {
+  /* border: solid blue 3pt; */
   font-family: WorkSans-Light;
   font-weight: 300;
   font-style: normal;
-  font-size: 10pt;
+  font-size: 1.3vw;
   display: inline-block;
   display: grid;
   text-align: center;
-  width: 400px;
+
+  width: 20vw;
+  margin-top: -4vh;
+  width: auto;
 }
 
-/* @media (max-width: 1190px) {
+@media (max-width: 768px) {
   .hero-photo-grid-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 1px;
     width: 90%;
     display: grid;
     grid-gap: 1rem;
     padding: 0;
-    margin: auto;
     align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-top: 40px; */
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    vertical-align: auto;
+    justify-items: center;
   }
   .hero-photo-div,
   .hero-photo-div2,
   .hero-photo-div3,
   .hero-photo-div4 {
-    width: 2fr;
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
   }
-} */
+
+  span.photo-Title {
+    font-size: 14px;
+    display: inline-block;
+    display: grid;
+    text-align: center;
+
+    width: 20vw;
+    margin-top: -18vh;
+    width: auto;
+  }
+}
